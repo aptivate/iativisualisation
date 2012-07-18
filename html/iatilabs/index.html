@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Aidflow Visualisations</title>
+
+  <link type="text/css" href="css/jquery-ui-1.css" rel="stylesheet">	
+  <link type="text/css" href="css/labs.css" rel="stylesheet">	
+  <link href="css/chartcredits.css" type="text/css" rel="stylesheet">    
+
+	<link rel="icon" type="image/png" href="images/aidflow.png" />
+	<link rel="shortcut icon" href="images/aidflow.ico" />
+
+  <script type='text/javascript' src='js/settings.js'></script>
+</head>
+<body>
+
+  <div id="header">
+    <h1>aidflow</h1>
+  </div>  
+
+  <div id="body">
+    <div class="ui-tabs ui-widget ui-widget-content ui-corner-all" id="tabs">
+      <div style="" class="ui-tabs-panel ui-widget-content ui-corner-bottom" id="tab-table">
+        <h3 id="table_title">Aidflow Visualisations of IATI Data</h3>
+        
+        <table id="links-list">
+          <tr>
+            <th>OECD Data, 2009</th>
+            <th>DfID Data, 2010</th>
+          </tr>
+          <tr>
+            <td><a href="piechart.html#tab-2">Bilateral and Multilateral Chart</a></td>
+            <td><a href="piechart.html#tab-1">Bilateral and Multilateral Chart</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><a href="funding-geomap.html">Map of Activities</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <form name="dfidtable" id="dfidtable">
+                Table 
+                <select name="data">
+                  <option value='dfid-af'>Afghanistan</option>
+                  <option value='dfid-al'>Albania</option>
+                  <option value='dfid-ao'>Angola</option>
+                  <option value='dfid-sh'>Tristan da Cunha</option>
+                  <option value='dfid-bd'>Bangladesh</option>
+                  <option value='dfid-bj'>Benin, Peoples Republic</option>
+                  <option value='dfid-bt'>Bhutan</option>
+                  <option value='dfid-bo'>Bolivia</option>
+                  <option value='dfid-ba'>Bosnia</option>
+                  <option value='dfid-br'>Brazil</option>
+                  <option value='dfid-bf'>Burkina Faso</option>
+                  <option value='dfid-mm'>Burma</option>
+                  <option value='dfid-bi'>Burundi</option>
+                  <option value='dfid-kh'>Cambodia</option>
+                  <option value='dfid-cm'>Cameroon</option>
+                  <option value='dfid-cv'>Cape Verde</option>
+                  <option value='dfid-cf'>Central African Republic</option>
+                  <option value='dfid-td'>Chad</option>
+                  <option value='dfid-cl'>Chile</option>
+                  <option value='dfid-cn'>China</option>
+                  <option value='dfid-cd'>Congo, Dem Rep</option>
+                  <option value='dfid-cg'>Congo, Peoples Republic of</option>
+                  <option value='dfid-dk'>Denmark</option>
+                  <option value='dfid-tl'>East Timor</option>
+                  <option value='dfid-ec'>Ecuador</option>
+                  <option value='dfid-er'>Eritrea</option>
+                  <option value='dfid-et'>Ethiopia</option>
+                  <option value='dfid-fj'>Fiji</option>
+                  <option value='dfid-gm'>Gambia, The</option>
+                  <option value='dfid-ge'>Georgia</option>
+                  <option value='dfid-gh'>Ghana</option>
+                  <option value='dfid-gi'>Gibraltar</option>
+                  <option value='dfid-gt'>Guatemala</option>
+                  <option value='dfid-gn'>Guinea</option>
+                  <option value='dfid-gy'>Guyana</option>
+                  <option value='dfid-ht'>Haiti</option>
+                  <option value='dfid-hn'>Honduras</option>
+                  <option value='dfid-in'>India</option>
+                  <option value='dfid-id'>Indonesia</option>
+                  <option value='dfid-iq'>Iraq</option>
+                  <option value='dfid-jm'>Jamaica</option>
+                  <option value='dfid-jo'>Jordan</option>
+                  <option value='dfid-ke'>Kenya</option>
+                  <option value='dfid-kg'>Kyrgyz Republic</option>
+                  <option value='dfid-la'>Laos</option>
+                  <option value='dfid-ls'>Lesotho</option>
+                  <option value='dfid-lr'>Liberia</option>
+                  <option value='dfid-mg'>Madagascar</option>
+                  <option value='dfid-mw'>Malawi</option>
+                  <option value='dfid-mv'>Maldives</option>
+                  <option value='dfid-md'>Moldova, Republic of</option>
+                  <option value='dfid-mn'>Mongolia</option>
+                  <option value='dfid-ms'>Montserrat</option>
+                  <option value='dfid-mz'>Mozambique</option>
+                  <option value='dfid-na'>Namibia</option>
+                  <option value='dfid-np'>Nepal</option>
+                  <option value='dfid-ni'>Nicaragua</option>
+                  <option value='dfid-ne'>Niger</option>
+                  <option value='dfid-ng'>Nigeria</option>
+                  <option value='dfid-pk'>Pakistan</option>
+                  <option value='dfid-pg'>Papua New Guinea</option>
+                  <option value='dfid-pe'>Peru</option>
+                  <option value='dfid-ph'>Philippines</option>
+                  <option value='dfid-pn'>Pitcairn Islands</option>
+                  <option value='dfid-ru'>Russian Federation</option>
+                  <option value='dfid-rw'>Rwanda</option>
+                  <option value='dfid-as'>Samoa (American)</option>
+                  <option value='dfid-sn'>Senegal</option>
+                  <option value='dfid-rs'>Serbia</option>
+                  <option value='dfid-sl'>Sierra Leone</option>
+                  <option value='dfid-so'>Somali Democratic Rep</option>
+                  <option value='dfid-za'>South Africa, Republic of</option>
+                  <option value='dfid-lk'>Sri Lanka</option>
+                  <option value='dfid-lc'>St. Lucia</option>
+                  <option value='dfid-sd'>Sudan</option>
+                  <option value='dfid-tj'>Tajikstan, Republic of</option>
+                  <option value='dfid-tz'>Tanzania</option>
+                  <option value='dfid-th'>Thailand</option>
+                  <option value='dfid-tr'>Turkey</option>
+                  <option value='dfid-tc'>Turks and Caicos Islands</option>
+                  <option value='dfid-ug'>Uganda</option>
+                  <option value='dfid-ua'>Ukraine</option>
+                  <option value='dfid-gb'>United Kingdom</option>
+                  <option value='dfid-vu'>Vanuatu</option>
+                  <option value='dfid-vn'>Vietnam</option>
+                  <option value='dfid-ps'>West Bank and Gaza</option>
+                  <option value='dfid-ws'>Western Samoa</option>
+                  <option value='dfid-ye'>Yemen</option>
+                  <option value='dfid-zm'>Zambia</option>
+                  <option value='dfid-zw'>Zimbabwe</option>
+                </select>
+
+                <script type="text/javascript">
+                function loadDataTable()
+                {
+                    var dfidtable = document.getElementById("dfidtable");
+                    window.location = 'labs.html?data=' + registry_api_url +
+                        '/package/' + dfidtable.data.value;
+                }
+                </script>
+                
+                <input type="button" value="go" onClick="loadDataTable()" />
+              </form>
+            </td>
+          </tr>
+        </table>          
+      </div>
+
+		  <div id="clear">&nbsp;</div>
+    </div><!-- body -->
+
+    <div class="ui-tabs ui-widget ui-widget-content ui-corner-all" id="footer">
+      <div id="credits">
+        <p>made by <a href="http://www.aptivate.org/">Apti<span id="V">V</span><span id="A">A</span>te</a></p>
+      </div>
+    </div><!-- footer -->
+  </body>
+</html>
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="icon" type="image/png" href="images/iati.png" />
+    <link rel="shortcut icon" href="images/iati.ico" />
+    <script type='text/javascript' src='http://www.google.com/jsapi'></script>
+    <script type='text/javascript' src='js/jquery-1.5.2.js'></script>
+    <script type='text/javascript' src='js/settings.js'></script>
+    <script type='text/javascript' src='js/countrycodes.js'></script>
+    <script type='text/javascript' src='js/map.js'></script>
+	<link type="text/css" href="css/labs/jquery-ui-1.8.2.custom.css" rel="stylesheet" />	
+	<link type="text/css" href="css/labs.css" rel="stylesheet" />	
+    <link href="css/chartcredits.css" type="text/css" rel="stylesheet" />
+    
+	<link rel="icon" type="image/png" href="images/aidflow.png" />
+	<link rel="shortcut icon" href="images/aidflow.ico" />    
+    <title>IATI Map Visualisation</title>
+  </head>
+
+  <body>
+    <div id="header">
+        <h1>Aidflow</h1>
+    </div>
+    
+        <div id="ui">
+          <h2>Which countries have the most donor activities?</h2>
+          <div id="map_area">
+        	<div id="loading">
+	          Loading data, please wait...
+	        </div>
+	        <div id="map_canvas">
+	        </div>
+            <div id="info">
+                This map is generated using data from <a href="http://iatiregistry.org">http://iatiregistry.org</a>. Each country is coloured according to the number of activities. A darker colour means a greater number of donor activities.
+            </div>
+          </div>
+	        <div id="controls">
+	            <p>Sources to Display</p>
+	            <form id="sources">
+	                <p>
+	                    <input type="checkbox" id="dfid" name="dfid" checked="checked" onchange="drawMap()" />
+	                    <label for="dfid">DFID</label>
+	                </p>
+                    <!--p>
+                        <input type="checkbox" id="worldbank" name="worldbank" onchange="drawMap()" />
+                        <label for="worldbank">World Bank</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="undp" name="undp" onchange="drawMap()" />
+                        <label for="undp">UNDP</label>
+                    </p-->
+                </form> 
+            </div>
+
+          <div id="clear">
+              &nbsp;
+          </div>
+
+
+
+              <div id="credits">
+                <p>made by <a href="http://www.aptivate.org/">Apti<span id="V">V</span><span id="A">A</span>te</a></p>
+              </div>
+
+  </body>
+</html>

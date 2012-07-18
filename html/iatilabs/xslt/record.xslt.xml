@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+
+
+
+<xsl:template  match="activity-date">
+    <xsl:value-of select="./@iso-date" />
+</xsl:template>
+
+
+
+
+<xsl:template match="transaction">
+    <td>
+      <xsl:apply-templates select="transaction-type"/>
+    </td>
+    <td>
+        <xsl:attribute name="class">date</xsl:attribute>
+        <xsl:value-of select="substring(value/@value-date,0,11)"/>
+    </td>
+    <td>
+        <xsl:attribute name="class">amount</xsl:attribute>
+        <xsl:value-of select="value"/>
+    </td>
+</xsl:template>
+
+
+<xsl:template match="transaction-type">
+  <xsl:choose>
+    <xsl:when test="@code = 'C'">
+      Budget - Commitment
+    </xsl:when>
+    <xsl:when test="@code = 'D'">
+      Transaction - Disbursement
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:value-of select="."/>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+
+
+<xsl:template match="iati-activity">
+    <table>
+        <xsl:attribute name="class">iati-activity</xsl:attribute>
+        <thead>
+            <tr>
+                <th> Budgets/Transactions </th>
+                <th> Date </th>
+                <th> Amount </th>
+            </tr>
+        </thead>
+        <tbody>
+            <xsl:for-each select="budget-planned|transaction">
+                <tr>
+                    <xsl:if test="position() mod 2 != 1">
+                        <xsl:attribute name="class">evenrow</xsl:attribute>
+                    </xsl:if>
+                    <xsl:apply-templates select="." />
+                </tr>
+            </xsl:for-each>
+        </tbody>
+    </table>
+</xsl:template>
+
+
+
+
+
+<xsl:template match="iati-activities">
+        <thead>
+            <tr>
+                <th>
+                    <xsl:attribute name="class">activity-title</xsl:attribute>
+                    <xsl:attribute name="colspan">2</xsl:attribute>
+                    Activity Title
+                </th>
+                <th>
+                    <xsl:attribute name="class">activity-status</xsl:attribute>
+                    Status
+                </th>
+            </tr>
+        </thead>
+      <xsl:for-each select="iati-activity">
+        <tbody>
+            <tr>
+                <td>
+                    <img>
+                        <xsl:attribute name="class">activityexpand</xsl:attribute>
+                        <xsl:attribute name="src">images/iatiminus.png</xsl:attribute>
+                        <xsl:attribute name="alt">-</xsl:attribute>
+                    </img>
+                </td>
+                <td>
+                    <xsl:attribute name="class">activity-title</xsl:attribute>
+                    <xsl:value-of select="title" />
+                </td>
+                <td>
+                    <xsl:value-of select="activity-status" />
+                </td>
+            </tr>
+            <tr>
+                <xsl:attribute name="class">collapsed</xsl:attribute>
+                <td></td>
+                <td>
+                    <xsl:attribute name="colspan">3</xsl:attribute>
+                    <xsl:value-of select="description" />
+                </td>
+            </tr>
+            <tr>
+                <xsl:attribute name="class">collapsed</xsl:attribute>
+                <td></td>
+                <td>
+                    <xsl:attribute name="colspan">3</xsl:attribute>
+                    <xsl:apply-templates select="." />
+                </td>
+            </tr>
+        </tbody>
+      </xsl:for-each>
+</xsl:template>
+
+</xsl:stylesheet>
+

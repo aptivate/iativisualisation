@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang=en>
+  <head>
+    <meta charset=utf-8>
+    <title>Bilateral and Multilateral Aid Flows</title>
+    
+    <style>
+        .cover {
+            cursor:pointer;
+        }
+
+	#tabmenu {
+		color: #000;
+		border-bottom: 2px solid black;
+		margin: 12px 0px 0px 0px;
+		padding: 0px;
+		z-index: 1;
+		padding-left: 10px }
+ 
+	#tabmenu li {
+		display: inline;
+		overflow: hidden;
+		list-style-type: none; }
+ 
+	#tabmenu a, a.active {
+		color: #000;
+		background: #AAA;
+		font: bold 1em "Trebuchet MS", Arial, sans-serif;
+		border: 2px solid black;
+		padding: 2px 5px 0px 5px;
+		margin: 0;
+		text-decoration: none; }
+ 
+	#tabmenu a.active {
+		background: #FFF;
+		border-bottom: 3px solid #FFF; }
+ 
+	#tabmenu a:hover {
+		color: #fff;
+		background: #D40000; }
+ 
+	#tabmenu a:visited {
+		color: #000; }
+ 
+	#tabmenu a.active:hover {
+		background: #D40000;
+		color: #DEDECF; }
+		
+	#tabs-1 {
+		background: white;
+	}
+	
+	.hidden-tabset.ui-tabs .ui-tabs-panel {
+		display: none
+	}
+    </style>
+    <link type="text/css" href="css/jquery-ui-1.css" rel="stylesheet">	
+    <link type="text/css" href="css/labs.css" rel="stylesheet">	
+    <link href="css/chartcredits.css" type="text/css" rel="stylesheet"> 
+	<link rel="icon" type="image/png" href="images/aidflow.png" />
+	<link rel="shortcut icon" href="images/aidflow.ico" />       
+  </head>
+
+  <body>
+    <div id="header">
+      <h1>aidflow</h1>
+      <h3 id="table_title">Bilateral and Multilateral Aid Flows to Recipient Countries</h3>
+    </div>  
+	
+	  <div id="body">
+		  <div id="tabs" class="hidden-tabset">
+			  <ul>
+				  <li><a href="#tab-1"><span>DFID</span></a></li>
+				  <li><a href="#tab-2"><span>OECD</span></a></li>
+			  </ul>
+			  <div id="tab-1"></div>
+			  <div id="tab-2"></div>
+		  </div><!-- tabs -->
+	      <div id="loading">
+              Loading data, please wait...
+          </div>
+		  <div id="tabs-1" class="ui-tabs-panel ui-widget ui-corner-bottom">
+			  <div id="instructions">
+				  <p>The <em>tabs</em> above (DFID, OECD, etc.) select datasets.</p>
+				  <p><em>Hover</em> over a segment for details.</p> 
+				  <p><em>Click</em> on a segment for related flows.</p>
+			  </div><!-- instructions -->
+		
+			  <div id="viz"></div>
+		  </div><!-- tabs-1 -->
+		
+		  <div id="clear">&nbsp;</div>
+	  </div><!-- body -->
+
+    <div class="ui-widget ui-widget-content ui-corner-all" id="footer">
+      <div id="notes">
+        <h3>Notes:</h3>
+        <p>Bilateral aid flows from one country to another. For example, DFID in the United Kingdom and USAID in the United States have bilateral aid relationship with many recipient countries.</p> 
+
+        <p>Multilateral aid is given via an intermediary organisation which pools funds from several donor governments before funding recipeints. The World Bank (IDA in the diagram) and the United Nations are examples of multilateral donors.</p>
+
+        <p><a href="http://iatiregistry.org/package/search?q=&amp;groups_types=Donor&amp;groups=dfid&amp;country=">DFID source data</a> | <a href="http://stats.oecd.org/Index.aspx">OECD source data</a></p>
+      </div><!-- notes -->
+      <div id="credits">
+        <p>made by <a href="http://www.aptivate.org/">Apti<span id="V">V</span><span id="A">A</span>te</a></p>
+      </div><!-- credits -->
+    </div><!-- footer -->
+
+    <script src="js/console.js"></script>
+    <script src="js/jquery-1.5.2.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.12.custom.js"></script>
+    <script src="js/raphael.js"></script>
+    <script src="js/g.raphael.js"></script>
+    <script src="js/g.pie.js"></script>
+    
+    <script src="js/states.js"></script>
+    <script src="js/statemachine.js"></script>    
+    <script src="js/wordwrap.js"></script>
+    <script src="js/iativiz.js"></script>
+    <script type="text/javascript">
+    var feeds = Array('cache/dfid.json', 'data/combined-oecd.json');
+
+    $(function()
+    {
+	    function onShowTab(event, ui)
+	    {
+	       $('#loading').show();
+	    
+	    
+		    var tabIndex = ui.index;
+		    $.ajax({
+	        		url: feeds[tabIndex],
+	        		dataType: 'json',
+	        		success: showFeed
+	        	});
+	    }
+	
+	    var $tabs = $('#tabs').tabs({show: onShowTab});
+	    $tabs.bind("tabsshow", onShowTab);
+    });
+    </script>
+  </body>
+</html>

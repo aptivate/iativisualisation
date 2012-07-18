@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<iati-activities version="1.0">
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=109616-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">109616-101</other-identifier>
+    <related-activity ref="109616">SUPPORT TO THE INTERGRATED PLANNING SYSTEM</related-activity>
+    <title>MULTILATORGANISATION and P0303 for Support to the Intergrated Planning System</title>
+    <description>To ensure the Govt. of Albania's core Policy and Financial Processes Function in a Coherent, Efficient and Intergrated Manner.  This will be accomplished by building sufficient and sustainable  capacity in Line MInistries to participate fully in IPS.</description>
+    <recipient-country code="AL"/>
+    <activity-date type="start" iso-date="2007-01-01"/>
+    <activity-date type="end" iso-date="2009-03-06"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15110" percentage="100"/>
+    <finance-type>Multilateral organisation</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2006-04-01</period-start>
+      <period-end>2007-03-31</period-end>
+      <value value-date="2006-04-01">500000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2007-03-31">500000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2007-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">500000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">500000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">500000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">500000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=109635-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">109635-101</other-identifier>
+    <related-activity ref="109635">MOUNTAIN PEOPLES RIGHTS CSCF308</related-activity>
+    <title>NOTFORPROFITORG and P0118 for Mountain Peoples Rights CSCF308</title>
+    <description>To establish sustainable mechanisms through which rural constituents can assert their rights to access information and services.</description>
+    <recipient-country code="AL"/>
+    <activity-date type="start" iso-date="2005-04-01"/>
+    <activity-date type="end" iso-date="2010-03-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15150" percentage="51"/>
+    <sector vocabulary="DAC" ref="16010" percentage="49"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="109635-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2005-04-01</period-start>
+      <period-end>2006-03-31</period-end>
+      <value value-date="2005-04-01">58287</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2006-03-31">58287</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2006-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2006-04-01</period-start>
+      <period-end>2007-03-31</period-end>
+      <value value-date="2006-04-01">48144</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2007-03-31">48144</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2007-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">31956</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">31956</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">31832</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">24006</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">-7826</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=109635-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">109635-102</other-identifier>
+    <related-activity ref="109635">MOUNTAIN PEOPLES RIGHTS CSCF308</related-activity>
+    <title>ACCOUNTABLE GRANT CSCF0308: ASSERTION OF MOUNTAIN PEOPLES RIGHTS THROUGH A MOUNTAIN AREA RORUM IN NORTHERN ALBANIA</title>
+    <description>To establish sustainable mechanisms through which rural constituents can assert their rights to access information and services.</description>
+    <recipient-country code="AL"/>
+    <activity-date type="start" iso-date="2005-04-01"/>
+    <activity-date type="end" iso-date="2010-03-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15150" percentage="51"/>
+    <sector vocabulary="DAC" ref="16010" percentage="49"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="109635-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">40065</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">40012</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=109636-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">109636-101</other-identifier>
+    <related-activity ref="109636">WOMEN'S LEADERSHIP PROGRAMME CSCF316</related-activity>
+    <title>NOTFORPROFITORG and P0118 for Women's Leadership Programme CSCF316</title>
+    <description>To contribute towards a more gender representative and accountable democracy</description>
+    <recipient-country code="AL"/>
+    <activity-date type="start" iso-date="2005-04-01"/>
+    <activity-date type="end" iso-date="2010-09-30"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15150" percentage="20"/>
+    <sector vocabulary="DAC" ref="15162" percentage="80"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="109636-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2005-04-01</period-start>
+      <period-end>2006-03-31</period-end>
+      <value value-date="2005-04-01">67408</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2006-03-31">67408</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2006-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2006-04-01</period-start>
+      <period-end>2007-03-31</period-end>
+      <value value-date="2006-04-01">81967</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2007-03-31">81967</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2007-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">86310</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">86310</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">117449</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">101230</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">-16219</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=109636-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">109636-102</other-identifier>
+    <related-activity ref="109636">WOMEN'S LEADERSHIP PROGRAMME CSCF316</related-activity>
+    <title>ACCOUNTABLE GRANT CSCF0316: ALBANIAN WOMEN'S LEADERSHIP PROGRAMME</title>
+    <description>To contribute towards a more gender representative and accountable democracy</description>
+    <recipient-country code="AL"/>
+    <activity-date type="start" iso-date="2005-04-01"/>
+    <activity-date type="end" iso-date="2010-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15150" percentage="20"/>
+    <sector vocabulary="DAC" ref="15162" percentage="80"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="109636-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">103096</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">103096</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2010-04-01</period-start>
+      <period-end>2011-03-31</period-end>
+      <value value-date="2010-04-01">59989</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2011-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2011-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+</iati-activities>

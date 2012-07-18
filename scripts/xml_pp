@@ -1,0 +1,92 @@
+#!/usr/bin/perl -w
+use strict;
+
+use XML::Twig;
+use File::Temp qw/ tempfile/; 
+
+my @styles= qw( none nsgmls nice indented record record_c); # from XML::Twig
+my $styles= join '|', @styles;                              # for usage
+my %styles= map { $_ => 1} @styles;                         # to check option
+
+my $DEFAULT_STYLE= 'indented';
+
+my $USAGE= "usage: $0 [-v] [-i<extension>] [-s ($styles)] <files>";
+
+my %opt;
+while( $ARGV[0]=~ m{^-})
+  { my $opt= shift @ARGV;
+    if(    $opt eq '-v')  { $opt{verbose}= 1; }
+    elsif( $opt eq '-s')  { $opt{style}= shift @ARGV;
+                            die $USAGE unless( $styles{$opt{style}});
+                          }
+    elsif( $opt=~ m{^-i(.*)$})
+                          { $opt{in_place}= 1;
+                    $opt{backup}= $1 ||'';
+                          }
+    elsif( $opt eq '--')  { last;       }
+    else                  { die $USAGE; }
+  }
+
+$opt{style} ||= $DEFAULT_STYLE;
+  
+
+my $t= XML::Twig->new( twig_handlers => { _all_ => sub { $_[0]->flush } },
+                       pretty_print  => $opt{style},
+               error_context => 1,
+                     );
+             
+foreach my $file (@ARGV)
+  { print STDERR "$file\n" if( $opt{verbose});
+    my $tempfile;
+    if( $opt{in_place})
+      { my $backup;
+        if( $opt{backup})  
+          { $backup= "$file$opt{backup}";
+            rename( $file, $backup) or die "cannot create backup file $backup: $!";
+            open( OUTPUT, ">$file") or die "cannot update file $file: $!";
+        select OUTPUT;
+        $file= $backup;
+      }
+    else
+      { (undef, $tempfile)= tempfile( DIR => '.');
+            rename( $file, $tempfile) or die "cannot create tempfile file $tempfile: $!";
+            open( OUTPUT, ">$file") or die "cannot update file $file: $!";
+        select OUTPUT;
+        $file= $tempfile;
+          }
+      }
+    $t->parsefile( $file);
+    select STDOUT;
+    if( defined $tempfile)
+      { unlink $tempfile or die "cannot unlink temp file $tempfile: $!"; }
+  }
+  
+__END__
+
+=head1 NAME
+
+xml_pp
+
+=head1 SYNOPSYS
+
+xml_pp [-v] [-i[<extension>]] [-s (none|nsgmls|nice|indented|record|record_c)] <files>
+
+=head1 DESCRIPTION
+
+XML pretty printer using XML::Twig styles
+
+=head1 OPTIONS
+
+=over 4
+
+=item -i[<extension>] : edits the file(s) in place, if an extension is provided
+(no space between -i and the extension) then the original file is backed-up
+with that extension
+
+=item -v : verbose (list the current file being processed)
+
+=item -s <style> : the style to use for pretty printing (see XML::Twig docs for
+the exact description of those styles), 'indented' by default
+
+=back
+

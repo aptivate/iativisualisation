@@ -1,0 +1,2005 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+    
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<link type="text/css" href="css/labs/jquery-ui-1.8.2.custom.css" rel="stylesheet" />	
+		<link type="text/css" href="css/labs.css" rel="stylesheet" />	
+        <link rel="icon" type="image/png" href="images/iati.png" />
+        <link rel="shortcut icon" href="images/iati.ico" />
+ 
+        <link href="css/credits.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.2.custom.min.js"></script>
+		<script type="text/javascript" src="js/jquery.xslt.js"></script>
+        <script type="text/javascript" src="js/jquery.query-2.1.7.js"></script>
+        <!--script type="text/javascript" src="js/jquery.livequery.min.js"></script-->
+        <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript" src="js/labs.js"></script>
+        <script type="text/javascript" src="js/map.js"></script><script src="http://www.google.com/uds/?file=visualization&amp;v=1&amp;packages=geomap" type="text/javascript"></script><script src="http://www.google.com/uds/api/visualization/1.0/2b554c0cbd6d1968cd1d0635d816ce77/default,geomap.I.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/countrycodes.js"></script>
+		<script type="text/javascript" src="js/sourcecodes.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/static/modules/gviz/1.0/geomap/geocodes/countries_en.js" type="text/javascript"></script><link type="text/css" rel="stylesheet" id="webdeveloper-disable-all-styles" href="chrome://webdeveloper/content/stylesheets/empty.css" />
+</head>
+<body>
+
+        <div id="header">
+            <h1>IATI Labs</h1>
+        </div>
+        <div dates="body">
+            <div class="ui-tabs ui-widget ui-widget-content ui-corner-all" id="tabs">
+                <ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+                    <li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="#tab-table"><span>Table</span></a></li>
+                    <li class="ui-state-default ui-corner-top"><a href="#ui"><span>Map</span></a></li>
+                  <!--  <li><a href="#tab-data"><span>Data</span></a></li> 
+                  <li><a href="#tab-about"><span>About</span></a></li> -->
+                </ul>
+                <div class="ui-tabs-panel ui-widget-content ui-corner-bottom" id="tab-table">
+                    <h3 id="table_title">IATI Data for Kenya</h3>
+                    <img class="collapseall" src="images/iatiminus.png" alt="[+] Collapse All" /> 
+                    <img class="expandall" src="images/iatiplus.png" alt="[+] Expand All" /> 
+                    <table id="iatitable">
+<transformiix:result xmlns:transformiix="http://www.mozilla.org/TransforMiix"></transformiix:result><thead><tr><th class="activity-title" colspan="2">
+                    Activity Title
+                </th><th class="activity-status">
+                    Status
+                </th><th class="activity-dates">
+                    Stard and End Dates
+                </th></tr></thead><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">ACCOUNTABLE GRANT FOR MULTILATERAL FUNDING WITH WORLD BANK LEADING</td><td>Implementation</td><td class="date">2004-08-01
+                    -
+                    2009-12-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To create a sound financial system and strengthened legal framework and judicial capacity that will ensure broad access to financial and related services</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">886000</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">886000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">-78072</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">-78072</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">851164</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">851164</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">580000</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">576760</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">3523288</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">FINANCIAL AND LEGAL SECTOR SUPPORT FOR TECHNICAL ASSISTANCE</td><td>Implementation</td><td class="date">2004-08-01
+                    -
+                    2009-12-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To create a sound financial system and strengthened legal framework and judicial capacity that will ensure broad access to financial and related services</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">41121</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">41121</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">22814</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">22814</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">PROCUREMENT OF SERVICES</td><td>Implementation</td><td class="date">2004-08-01
+                    -
+                    2009-12-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To create a sound financial system and strengthened legal framework and judicial capacity that will ensure broad access to financial and related services</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2004-04-01</td><td class="amount">95138</td><td class="date">2004-04-01</td><td class="date">2005-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2005-03-31</td><td class="amount">95138</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">30482</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">30482</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">0</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">3780</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">3780</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">-3618</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">-3618</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">47273</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">SUPPORT TO GOVERNMENT OF KENYA FOR NATIONAL STATISTICS SYSTEMS</td><td>Implementation</td><td class="date">2004-01-01
+                    -
+                    2010-12-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To build a strong NSS by successfully implementing the statistics Strategic Plan</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">500000</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">500000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">500000</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">500000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">35</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">35</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">755179</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">755179</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">1500000</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">1500000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">PROCUREMENTOFGOODS AND P0019 FOR NATIONAL STATISTICS SYSTEMS</td><td>Implementation</td><td class="date">2004-01-01
+                    -
+                    2010-12-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To build a strong NSS by successfully implementing the statistics Strategic Plan</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2004-04-01</td><td class="amount">147533</td><td class="date">2004-04-01</td><td class="date">2005-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2005-03-31</td><td class="amount">147533</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">212935</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">212935</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">33058</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">33058</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">NOTFORPROFITORG AND P0019 FOR NATIONAL STATISTICS SYSTEMS</td><td>Implementation</td><td class="date">2004-01-01
+                    -
+                    2009-12-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To build a strong NSS by successfully implementing the statistics Strategic Plan</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">1695797</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">1695797</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">651222</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">651222</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">PROCOFSERVICES AND P0019 FOR NATIONAL STATISTICS SYSTEMS</td><td>Implementation</td><td class="date">2004-01-01
+                    -
+                    2010-12-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To build a strong NSS by successfully implementing the statistics Strategic Plan</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2004-04-01</td><td class="amount">76211</td><td class="date">2004-04-01</td><td class="date">2005-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2005-03-31</td><td class="amount">76211</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">50818</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">50818</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">66429</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">66429</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">14973</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">14973</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">0</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">0</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">295809</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">FINANCIAL AID TO KESSP (KENYA EDUCATION SECTOR SUPPORT PROGRAMME)</td><td>Implementation</td><td class="date">2005-07-01
+                    -
+                    2010-08-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To ensure equity of access and enhance quality and learning achievements in Basic Education, expand opportunities for further education and training and strengthen education sector management at all levels.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">5000000</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">5000000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">14000000</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">14000000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">11000000</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">11000000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">10000000</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">10000000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">10000000</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">5000000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">PROCUREMENT OF GOODS FOR KESSP ( KENYA EDUCATION SECTOR SUPPORT PROGRAMME)</td><td>Implementation</td><td class="date">2005-07-01
+                    -
+                    2010-08-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To ensure equity of access and enhance quality and learning achievements in Basic Education, expand opportunities for further education and training and strengthen education sector management at all levels.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">32631</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">32631</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">43371</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">43371</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">-1585</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">-1585</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">12745</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">12745</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">23255</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">10885</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">PROCUREMENT OF SERVICES - TECHNICAL ASSISTANCE FOR KESSP (KENYA EDUCATION SECTOR SUPPORT PROGRAMME)</td><td>Implementation</td><td class="date">2005-07-01
+                    -
+                    2010-08-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To ensure equity of access and enhance quality and learning achievements in Basic Education, expand opportunities for further education and training and strengthen education sector management at all levels.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">AG 4392  PRIMARY SCHOOL ACTION FOR BETTER HEALTH (PSABH) -CFBT</td><td>Implementation</td><td class="date">2005-07-01
+                    -
+                    2007-10-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To ensure equity of access and enhance quality and learning achievements in Basic Education, expand opportunities for further education and training and strengthen education sector management at all levels.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">1299525</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">1299525</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">896961</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">896961</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">436631</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">436631</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">ACCOUNTABLE GRANT - PUBLIC PRIMARY SCHOOL  REPORT CARD - NATIONAL TAXPAYERS ASSOCIATION</td><td>Implementation</td><td class="date">2009-04-01
+                    -
+                    2010-06-30</td></tr><tr class="collapsed"><td></td><td colspan="3">To ensure equity of access and enhance quality and learning achievements in Basic Education, expand opportunities for further education and training and strengthen education sector management at all levels.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">255547</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">215054</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">19453</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">ACCOUNTABLE GRANT- SPECIAL NEEDS EDUCATION  VSO JITOLEE STRENGTHENING OF EDUCATION ASSESSMENT RESOURCE CENTRES</td><td>Implementation</td><td class="date">2005-07-01
+                    -
+                    2010-08-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To ensure equity of access and enhance quality and learning achievements in Basic Education, expand opportunities for further education and training and strengthen education sector management at all levels.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">67000</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">38890</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">28000</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">PROCUREMENT OF KENYA INSTITUTE OF ADMINISTRATION  SERVICES</td><td>Implementation</td><td class="date">2004-07-01
+                    -
+                    2009-12-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To contribute to sustainable growth and poverty reduction in Kenya through the development of a comprehensive policy and institutional framework that strengthens the governance of land and ensures access to land for poor people.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2004-04-01</td><td class="amount">255950</td><td class="date">2004-04-01</td><td class="date">2005-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2005-03-31</td><td class="amount">255950</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">287430</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">287430</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">175892</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">175892</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">104371</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">104371</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">20899</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">20899</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">SUPPORT TO KENYA LAND ALLIANCE</td><td>Implementation</td><td class="date">2004-07-01
+                    -
+                    2009-12-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To contribute to sustainable growth and poverty reduction in Kenya through the development of a comprehensive policy and institutional framework that strengthens the governance of land and ensures access to land for poor people.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2004-04-01</td><td class="amount">138623</td><td class="date">2004-04-01</td><td class="date">2005-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2005-03-31</td><td class="amount">138623</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">123461</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">123461</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">183579</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">183579</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">213492</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">213492</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">-19008</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">-19008</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">PROCUREMENT OF GOODS</td><td>Implementation</td><td class="date">2004-07-01
+                    -
+                    2009-12-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To contribute to sustainable growth and poverty reduction in Kenya through the development of a comprehensive policy and institutional framework that strengthens the governance of land and ensures access to land for poor people.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2004-04-01</td><td class="amount">24426</td><td class="date">2004-04-01</td><td class="date">2005-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2005-03-31</td><td class="amount">24426</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">28881</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">28881</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">29165</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">29165</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">8520</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">8520</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">MULTILATORGANISATION AND P0019 FOR SUPPORT TO AGRICULTURE POLICY REFORM IN KENYA</td><td>Completion</td><td class="date">2004-01-01
+                    -
+                    2009-12-31</td></tr><tr class="collapsed"><td></td><td colspan="3">Support the creation of a policy and institutional framework that empowers poor people to derive a better and more sustainable livelihood from agriculture.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">94000</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">94000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">75000</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">75000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">0</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">-3120</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">-3120</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">PROCOFSERVICES AND P0019 FOR SUPPORT TO AGRICULTURE POLICY REFORM IN KENYA</td><td>Completion</td><td class="date">2004-01-01
+                    -
+                    2005-03-30</td></tr><tr class="collapsed"><td></td><td colspan="3">Support the creation of a policy and institutional framework that empowers poor people to derive a better and more sustainable livelihood from agriculture.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2004-04-01</td><td class="amount">65208</td><td class="date">2004-04-01</td><td class="date">2005-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2005-03-31</td><td class="amount">65208</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">1673</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">1673</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">11661</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">11661</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">MOU DFID/UNDP TO SUPPORT  PUBLIC SECTOR REFORM</td><td>Implementation</td><td class="date">2005-09-01
+                    -
+                    2010-06-30</td></tr><tr class="collapsed"><td></td><td colspan="3">To impove public sector management for a more efficient, effective and ethical delivery of targetted results for Kenyans</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">1000038</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">1000038</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">500000</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">500000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">19352</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">19352</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">0</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">1480610</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">TECHNICAL ASSISTANCE  FOR PUBLIC SECTOR REFORM</td><td>Implementation</td><td class="date">2005-09-01
+                    -
+                    2010-06-30</td></tr><tr class="collapsed"><td></td><td colspan="3">To impove public sector management for a more efficient, effective and ethical delivery of targetted results for Kenyans</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">60105</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">60105</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">74792</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">74792</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">276996</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">276996</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">257369</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">160293</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">145738</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">GRANT FOR SOCIAL MARKETING OF CONDOMS</td><td>Implementation</td><td class="date">2003-01-01
+                    -
+                    2009-04-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To increase adoption of safer sexual practices among youth</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2002-04-01</td><td class="amount">430129</td><td class="date">2002-04-01</td><td class="date">2003-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2003-03-31</td><td class="amount">430129</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2003-04-01</td><td class="amount">1083049</td><td class="date">2003-04-01</td><td class="date">2004-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2004-03-31</td><td class="amount">1083049</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2004-04-01</td><td class="amount">1637925</td><td class="date">2004-04-01</td><td class="date">2005-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2005-03-31</td><td class="amount">1637925</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">1969024</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">1969024</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">499535</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">499535</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">1826633</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">1826633</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">538437</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">538437</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">PROCUREMENT OF GOODS FOR SOCIAL MARKETING OF CONDOMS</td><td>Implementation</td><td class="date">2003-01-01
+                    -
+                    2009-04-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To increase adoption of safer sexual practices among youth</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2003-04-01</td><td class="amount">160543</td><td class="date">2003-04-01</td><td class="date">2004-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2004-03-31</td><td class="amount">160543</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2004-04-01</td><td class="amount">0</td><td class="date">2004-04-01</td><td class="date">2005-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2005-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">2406</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">2406</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">0</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">0</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">101343</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">101343</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">GRANT FOR SOCIAL MARKETING OF CONDOMS</td><td>Implementation</td><td class="date">2003-01-01
+                    -
+                    2010-03-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To increase adoption of safer sexual practices among youth</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">3354588</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">3354588</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">3446388</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">1509628</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">MOUS AND ACCOUNTABLE GRANTS FOR ESSENTIAL HEALTH SERVICES</td><td>Implementation</td><td class="date">2004-11-01
+                    -
+                    2009-11-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To support the GoK / MoH provide integrated effective essential health services in Kenya, particularly for poor women and children</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2004-04-01</td><td class="amount">604253</td><td class="date">2004-04-01</td><td class="date">2005-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2005-03-31</td><td class="amount">604253</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">1035859</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">1035859</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">715184</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">715184</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">1816737</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">1816737</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">2384278</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">2384278</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">2823027</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">2761339</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">2500000</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">MOU WITH UNICEF FOR ESSENTIAL HEALTH SERVICES</td><td>Implementation</td><td class="date">2004-11-01
+                    -
+                    2009-11-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To support the GoK / MoH provide integrated effective essential health services in Kenya, particularly for poor women and children</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">1022456</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">1022456</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">PROCUREMENT OF GOODS FOR ESSENTIAL HEALTH SERVICES</td><td>Implementation</td><td class="date">2004-11-01
+                    -
+                    2009-11-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To support the GoK / MoH provide integrated effective essential health services in Kenya, particularly for poor women and children</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">12861</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">12861</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">271313</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">271313</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">205619</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">205619</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">599823</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">599823</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">200247</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">176111</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">GRANT FOR ESSENTIAL HEALTH SERVICES</td><td>Implementation</td><td class="date">2004-11-01
+                    -
+                    2009-11-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To support the GoK / MoH provide integrated effective essential health services in Kenya, particularly for poor women and children</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2005-04-01</td><td class="amount">15496</td><td class="date">2005-04-01</td><td class="date">2006-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2006-03-31</td><td class="amount">15496</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2006-04-01</td><td class="amount">-7154</td><td class="date">2006-04-01</td><td class="date">2007-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2007-03-31</td><td class="amount">-7154</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">CONTRACTS TO HUNGER SAFETY NET PROGRAMME IMPLEMENTING PARTNERS</td><td>Implementation</td><td class="date">2007-07-26
+                    -
+                    2017-07-26</td></tr><tr class="collapsed"><td></td><td colspan="3">To establish a government-led national system for long-term and guaranteed cash transfers to the poorest and most vulnerable 10% of households in Kenya.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">ACCOUNTABLE GRANT TO FSD TRUST HSNP CASH TRANSFER PAYMENTS</td><td>Implementation</td><td class="date">2007-07-26
+                    -
+                    2017-07-26</td></tr><tr class="collapsed"><td></td><td colspan="3">To establish a government-led national system for long-term and guaranteed cash transfers to the poorest and most vulnerable 10% of households in Kenya.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">20707</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">20707</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">1459604</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">1459604</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">4736643</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">3388247</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">11501766</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2011-04-01</td><td class="amount">10122400</td><td class="date">2011-04-01</td><td class="date">2012-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2012-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2012-04-01</td><td class="amount">12793442</td><td class="date">2012-04-01</td><td class="date">2013-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2013-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2013-04-01</td><td class="amount">12793442</td><td class="date">2013-04-01</td><td class="date">2014-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2014-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2014-04-01</td><td class="amount">9793442</td><td class="date">2014-04-01</td><td class="date">2015-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2015-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2015-04-01</td><td class="amount">9793442</td><td class="date">2015-04-01</td><td class="date">2016-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2016-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2016-04-01</td><td class="amount">9793442</td><td class="date">2016-04-01</td><td class="date">2017-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2017-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2017-04-01</td><td class="amount">11161467</td><td class="date">2017-04-01</td><td class="date">2018-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2018-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">DFID/UNICEF MOU FOR ORPHANS &amp; VULNERABLE CHILDREN CASH TRANSFER PAYMENTS</td><td>Implementation</td><td class="date">2007-07-26
+                    -
+                    2017-07-26</td></tr><tr class="collapsed"><td></td><td colspan="3">To establish a government-led national system for long-term and guaranteed cash transfers to the poorest and most vulnerable 10% of households in Kenya.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">1931740</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">965870</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">2203158</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">2203158</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">3265102</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">3114550</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">2600000</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">HSNP SECRETARIAT: PROCUREMENT OF IT EQUIPMENT AND 1  VEHICLE</td><td>Implementation</td><td class="date">2008-08-01
+                    -
+                    2017-07-26</td></tr><tr class="collapsed"><td></td><td colspan="3">To establish a government-led national system for long-term and guaranteed cash transfers to the poorest and most vulnerable 10% of households in Kenya.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">42658</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">42658</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">53389</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">6293</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">143953</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">NOTFORPROFITORG and P0118 for Improving Livelihoods for Small Holder Dairy Sector CSCF421</td><td>Implementation</td><td class="date">2007-04-01
+                    -
+                    2011-03-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To enable raw milk traders to effectively contribute to the creation of policy and institutional frameworks that are responsive to their needs and the needs of the poor.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">89453</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">89453</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">115003</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">115003</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">ACCOUNTABLE GRANT CSCF0421: IMPROVING LIVELIHOODS IN THE SMALLHOLDER DIARY SECTOR IN KENYA</td><td>Implementation</td><td class="date">2007-06-01
+                    -
+                    2011-03-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To enable raw milk traders to effectively contribute to the creation of policy and institutional frameworks that are responsive to their needs and the needs of the poor.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">98420</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">98420</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">20299</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">ACCOUNTABLE GRANT FOR  PARLIAMENTARY STRENGTHENING PROGRAMME (PSP)</td><td>Implementation</td><td class="date">2007-04-01
+                    -
+                    2010-03-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To strengthen and professionalise the National Assembly of Kenya</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">91088</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">91088</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">434346</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">434346</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">704566</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">422618</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">WESTMINSTER FOUNDATION FOR DEMOCRACY</td><td>Implementation</td><td class="date">2007-11-14
+                    -
+                    2010-03-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To strengthen and professionalise the National Assembly of Kenya</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">33850</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">33850</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">10150</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">3724</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">CONSULTANCY SERVICES</td><td>Implementation</td><td class="date">2007-04-01
+                    -
+                    2010-03-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To strengthen and professionalise the National Assembly of Kenya</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">7000</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">7000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">19000</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">3120</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">NOTFORPROFITORG and P0118 for Livelihoods 413</td><td>Implementation</td><td class="date">2007-04-01
+                    -
+                    2013-06-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To improve the livelihoods od forest-adjacent communities to claim their rights to manage forest resources and influence local decision making processes.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">56442</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">56442</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">62900</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">62900</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">ACCOUNTABLE GRANT CSCF0413: IMPROVING PARTNERSHIPS THROUGH SUSTAINABLE GOVERNMENT</td><td>Implementation</td><td class="date">2007-07-01
+                    -
+                    2013-06-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To improve the livelihoods od forest-adjacent communities to claim their rights to manage forest resources and influence local decision making processes.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">176743</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">126795</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">71254</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2011-04-01</td><td class="amount">69774</td><td class="date">2011-04-01</td><td class="date">2012-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2012-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2012-04-01</td><td class="amount">9556</td><td class="date">2012-04-01</td><td class="date">2013-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2013-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">MOU: UNICEF NIPHORN NUTRITIONAL PROJECT</td><td>Completion</td><td class="date">2008-07-01
+                    -
+                    2009-03-01</td></tr><tr class="collapsed"><td></td><td colspan="3">To ensure regular compilation, analysis and reporting of quality nutrition information at country (Eritrea, Ethiopia, Somalia, Kenya and Uganda) and regional level.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2007-04-01</td><td class="amount">200000</td><td class="date">2007-04-01</td><td class="date">2008-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2008-03-31</td><td class="amount">200000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">PROCOFSERVICES AND P0111 FOR DFID-WT HRCS INITIATIVE</td><td>Implementation</td><td class="date">2008-02-01
+                    -
+                    2013-01-01</td></tr><tr class="collapsed"><td></td><td colspan="3">TO STRENGTHEN THE CAPACITY FOR THE GENERATION OF NEW SCIENTIFIC KNOWLEDGE WITHIN KENYA AND IMPROVE ITS USE IN EVIDENCE BASED DECISION MAKING,POLICY FORMULATION AND IMPLEMENTATION</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">448662</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">448662</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">606324</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">176853</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">1000000</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2011-04-01</td><td class="amount">1000000</td><td class="date">2011-04-01</td><td class="date">2012-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2012-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2012-04-01</td><td class="amount">1945014</td><td class="date">2012-04-01</td><td class="date">2013-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2013-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">NOTFORPROFITORG and P0118 for Respecting the Rights &amp; Needs of Mentally Ill People CSCF450</td><td>Implementation</td><td class="date">2008-04-01
+                    -
+                    2011-03-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To integrate 3,200 mentally ill people and their 2,900 carers socially and economically into the communities of Nyeri, Laikipia, Nyandarua and Meru South through the support of four partner organizations in the implementation of the mental health and development model</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">118222</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">118222</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">ACCOUNTABLE GRANT CSCF0450: RESPECTING THE RIGHTS AND NEEDS OF MENTALLY ILL PEOPLE LIVING IN NYERI, LAIKIPIA, NYANDARUA AND MERU SOUTH DISTRICTS OF KENYA</td><td>Implementation</td><td class="date">2008-04-01
+                    -
+                    2011-03-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To integrate 3,200 mentally ill people and their 2,900 carers socially and economically into the communities of Nyeri, Laikipia, Nyandarua and Meru South through the support of four partner organizations in the implementation of the mental health and development model</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">215568</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">156812</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">162511</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">NOTFORPROFITORG AND P0118 FOR RIGHTS FOR DEAF CHILDREN AND THEIR FAMILIES CSCF437</td><td>Implementation</td><td class="date">2008-06-01
+                    -
+                    2013-09-30</td></tr><tr class="collapsed"><td></td><td colspan="3">1440 family-members of deaf children in seven districts understand and advocate for their children's rights to family life, education and protection</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">75528</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">75528</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">ACCOUNTABLE GRANT CSCF0437: RIGHTS FOR DEAF CHILDREN AND THEIR FAMILIES</td><td>Implementation</td><td class="date">2008-06-01
+                    -
+                    2013-03-31</td></tr><tr class="collapsed"><td></td><td colspan="3">1440 family-members of deaf children in seven districts understand and advocate for their children's rights to family life, education and protection</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">108626</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">64107</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">80054</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2011-04-01</td><td class="amount">53408</td><td class="date">2011-04-01</td><td class="date">2012-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2012-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2012-04-01</td><td class="amount">46047</td><td class="date">2012-04-01</td><td class="date">2013-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2013-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2013-04-01</td><td class="amount">21758</td><td class="date">2013-04-01</td><td class="date">2014-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2014-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">MAANISHA COMMUNITY FOCUSED INITIATIVES TO CONTROL HIV AND AIDS</td><td>Implementation</td><td class="date">2008-04-01
+                    -
+                    2012-12-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To support the implementation of Kenya National HIV/AIDS Strategic Plan II (KNASP II) through harmonised funding arrangements</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">930043</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">930043</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">5696086</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">3224633</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">2732004</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2011-04-01</td><td class="amount">441345</td><td class="date">2011-04-01</td><td class="date">2012-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2012-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2012-04-01</td><td class="amount">164715</td><td class="date">2012-04-01</td><td class="date">2013-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2013-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">JOINT UN PROGRAMME SUPPORT TO THE KENYA NATIONAL HIV/AIDS STRATEGIC PLAN 2005/6 - 2009/10</td><td>Implementation</td><td class="date">2008-04-01
+                    -
+                    2012-12-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To support the implementation of Kenya National HIV/AIDS Strategic Plan II (KNASP II) through harmonised funding arrangements</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">812473</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">812473</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">3187527</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">3153177</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">2000000</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2011-04-01</td><td class="amount">2000000</td><td class="date">2011-04-01</td><td class="date">2012-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2012-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2012-04-01</td><td class="amount">2000000</td><td class="date">2012-04-01</td><td class="date">2013-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2013-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">TECHNICAL ASSISTANCE TO NATIONAL AIDS CONTROL COUNCIL</td><td>Implementation</td><td class="date">2008-04-01
+                    -
+                    2012-12-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To support the implementation of Kenya National HIV/AIDS Strategic Plan II (KNASP II) through harmonised funding arrangements</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">CO-FUNDING WITH WORLD BANK OF TOTAL WAR AGAINST HIV AND AIDS PROJECT</td><td>Implementation</td><td class="date">2008-04-01
+                    -
+                    2012-12-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To support the implementation of Kenya National HIV/AIDS Strategic Plan II (KNASP II) through harmonised funding arrangements</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">8500000</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2011-04-01</td><td class="amount">6000000</td><td class="date">2011-04-01</td><td class="date">2012-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2012-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2012-04-01</td><td class="amount">2500000</td><td class="date">2012-04-01</td><td class="date">2013-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2013-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">PROCUREMENT OF GOODS FOR AMREF</td><td>Implementation</td><td class="date">2008-04-01
+                    -
+                    2012-12-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To support the implementation of Kenya National HIV/AIDS Strategic Plan II (KNASP II) through harmonised funding arrangements</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">33840</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">33840</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">1967</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">1070</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">AG: SUPPORT TO SOLIDARITES FOR LIVELIHHOOD SYSTEMS IN MARSABIT</td><td>Implementation</td><td class="date">2008-07-17
+                    -
+                    2009-09-30</td></tr><tr class="collapsed"><td></td><td colspan="3">To reinforce the resilience of the local population to adapt and to resist drought and desertification in Northern Kenya.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">322590</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">322590</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">384646</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">384646</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">PRODUCTION AND PUBLICITY OF KNOW ZONE TV EDUCATIONAL SERIES</td><td>Implementation</td><td class="date">2008-08-26
+                    -
+                    2010-08-31</td></tr><tr class="collapsed"><td></td><td colspan="3">Know Zone TV Programme  is intended to support and enrich the learning of Kenyan children in  English language, Maths and Life-skills. It is linked  to the Grade 4 curriculum and  is also suitable for both older and younger children.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">300000</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">300000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">280500</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">280500</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">19500</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">SUPPORT TO CIVIL SOCIETY AND NATIONAL PEACEBUILDING EFFORT</td><td>Implementation</td><td class="date">2008-09-04
+                    -
+                    2009-03-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To tackle the root causes of conflict in Kenya so as to prevent conflict erupting (specifically preparing for the 2012 elections)</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">177000</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">177000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">-139</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">-139</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">SUPPORT TO AU PANEL OF EMINENT PERSONS ON PEACEBUILDING</td><td>Implementation</td><td class="date">2008-09-04
+                    -
+                    2010-03-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To tackle the root causes of conflict in Kenya so as to prevent conflict erupting (specifically preparing for the 2012 elections)</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">1200000</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">1200000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">1090000</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">1080000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">SUPPORT TO NATIONAL RESPONSE INITIATIVE</td><td>Implementation</td><td class="date">2009-03-11
+                    -
+                    2010-03-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To tackle the root causes of conflict in Kenya so as to prevent conflict erupting (specifically preparing for the 2012 elections)</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">520000</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">520000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">100000</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">100000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">SUPPORT TO SECURITY SECTOR REFORM 2009</td><td>Implementation</td><td class="date">2009-06-11
+                    -
+                    2010-03-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To tackle the root causes of conflict in Kenya so as to prevent conflict erupting (specifically preparing for the 2012 elections)</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">310000</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">255768</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">AG: SUPPORT TO MENTOR FOR FLOODS AND EMERGENCY MALARIA CONTROL PROJECT (2008)</td><td>Implementation</td><td class="date">2008-12-18
+                    -
+                    2009-09-30</td></tr><tr class="collapsed"><td></td><td colspan="3">To minimise malaria transmission through improved access to and availability of effective malaria prevention and control for the most vulnerable.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">397960</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">397960</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">248401</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">248401</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">PRIME DESIGN STAGE - PROCUREMENT OF SERVICES</td><td>Implementation</td><td class="date">2009-01-12
+                    -
+                    2011-01-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To facilitate better functioning and regionally integrated markets with wider participation of the poor in domestic and international trade</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">11575</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">11575</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">88425</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">75169</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">FOREIGN INVESTMENT ADVISORY SERVICE (FIAS)</td><td>Implementation</td><td class="date">2009-01-12
+                    -
+                    2014-08-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To facilitate better functioning and regionally integrated markets with wider participation of the poor in domestic and international trade</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">1000000</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">1000000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">TRADEMARK EAST AFRICA (TMEA)</td><td>Implementation</td><td class="date">2009-01-12
+                    -
+                    2014-08-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To facilitate better functioning and regionally integrated markets with wider participation of the poor in domestic and international trade</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">550000</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">750000</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2011-04-01</td><td class="amount">750000</td><td class="date">2011-04-01</td><td class="date">2012-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2012-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2012-04-01</td><td class="amount">750000</td><td class="date">2012-04-01</td><td class="date">2013-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2013-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2013-04-01</td><td class="amount">750000</td><td class="date">2013-04-01</td><td class="date">2014-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2014-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2014-04-01</td><td class="amount">200000</td><td class="date">2014-04-01</td><td class="date">2015-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2015-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">MAKING MARKETS WORK FOR THE POOR (M4P)</td><td>Implementation</td><td class="date">2009-01-12
+                    -
+                    2014-08-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To facilitate better functioning and regionally integrated markets with wider participation of the poor in domestic and international trade</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">800000</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2011-04-01</td><td class="amount">800000</td><td class="date">2011-04-01</td><td class="date">2012-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2012-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2012-04-01</td><td class="amount">900000</td><td class="date">2012-04-01</td><td class="date">2013-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2013-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2013-04-01</td><td class="amount">900000</td><td class="date">2013-04-01</td><td class="date">2014-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2014-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2014-04-01</td><td class="amount">500000</td><td class="date">2014-04-01</td><td class="date">2015-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2015-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">PRIVATE SECTOR CORDINATION</td><td>Implementation</td><td class="date">2009-01-12
+                    -
+                    2014-08-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To facilitate better functioning and regionally integrated markets with wider participation of the poor in domestic and international trade</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">72019</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">71419</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">27981</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2011-04-01</td><td class="amount">40000</td><td class="date">2011-04-01</td><td class="date">2012-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2012-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2012-04-01</td><td class="amount">40000</td><td class="date">2012-04-01</td><td class="date">2013-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2013-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2013-04-01</td><td class="amount">40000</td><td class="date">2013-04-01</td><td class="date">2014-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2014-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2014-04-01</td><td class="amount">30000</td><td class="date">2014-04-01</td><td class="date">2015-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2015-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">MOU: CONTRIBUTION TO WFP FOR EMERGENCY FOOD AID 2009</td><td>Implementation</td><td class="date">2009-03-11
+                    -
+                    2009-09-30</td></tr><tr class="collapsed"><td></td><td colspan="3">To save lives and protect livelihoods in targeted populations.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2008-04-01</td><td class="amount">5500000</td><td class="date">2008-04-01</td><td class="date">2009-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2009-03-31</td><td class="amount">5500000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">MOU: CONTRIBUTION TO UNHCR FOR SOMALI REFUGEES IN DADAAB</td><td>Implementation</td><td class="date">2009-04-02
+                    -
+                    2009-12-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To improve services, recognition of rights and other support for refugees in Dadaab Refugee Camp in Eastern Kenya.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">2000000</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">2000000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">AG: SUPPORT TO  ACF NUTRITION PROJECT IN NORTH-EASTERN PROVINCE</td><td>Implementation</td><td class="date">2009-05-01
+                    -
+                    2010-03-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To ensure comprehensive management of acute malnutrition in the most sensitive areas in North Eastern Province, treatment and surveillance of acutely malnourished children less than 5 and pregnant and lactating women.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">1000000</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">874195</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">AG: SUPPORT TO SCUK EMERGENCY NUTRITION PROJECT IN NORTH-EARTERN PROVINCE</td><td>Implementation</td><td class="date">2009-06-01
+                    -
+                    2010-05-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To treat the acutely malnourished while aiming to improve key health indicators through health outreach in Wajir East, Wajir South and Mandera Central districts, Northern Eastern Province.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">1369848</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">774206</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">CSCF0484 EMPOWERING DISADVANTAGED GROUPS THROUGH COMBATING DISCRIMINATION AND PROMOTING EQUALITY</td><td>Implementation</td><td class="date">2009-07-01
+                    -
+                    2011-03-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To enable Kenyan CSOs to be key players in building a national anti-discrimination regime.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">83074</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">83074</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">92155</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">COORDINATED GOVERNMENT AND DEVELOPMENT PARTNER FINANCING</td><td>Completion</td><td class="date">2009-09-15
+                    -
+                    2010-08-31</td></tr><tr class="collapsed"><td></td><td colspan="3">Research to document and publish key policy lessons from four years implementation of KESSP 2005-2010</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">52643</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">PUBLIC SECTOR REFORM</td><td>Completion</td><td class="date">2009-09-15
+                    -
+                    2010-08-31</td></tr><tr class="collapsed"><td></td><td colspan="3">Research to document and publish key policy lessons from four years implementation of KESSP 2005-2010</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">19339</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">DECENTRALIZATION, ACCOUNTABILITY AND CITIZEN VOICE</td><td>Completion</td><td class="date">2009-09-15
+                    -
+                    2010-08-31</td></tr><tr class="collapsed"><td></td><td colspan="3">Research to document and publish key policy lessons from four years implementation of KESSP 2005-2010</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">79905</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">EDUCATION QUALITY AND EQUITY</td><td>Completion</td><td class="date">2009-09-15
+                    -
+                    2010-08-31</td></tr><tr class="collapsed"><td></td><td colspan="3">Research to document and publish key policy lessons from four years implementation of KESSP 2005-2010</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">48110</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">MERLIN AG EMERGENCY HEALTH &amp; NUTRITION SUPPORT IN TURKANA DISTRICTS NORTHERN KENYA</td><td>Implementation</td><td class="date">2009-12-01
+                    -
+                    2010-11-30</td></tr><tr class="collapsed"><td></td><td colspan="3">To improve access to integrated primary health, nutrition, hygiene promotion and sanitation services and to enhance local emergency preparedness and response capacity for the vulnerable drought affected pastoralist populations of Turkana districts of Northern Kenya.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">207262</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">207262</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2010-04-01</td><td class="amount">402890</td><td class="date">2010-04-01</td><td class="date">2011-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2011-03-31</td><td class="amount">0</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody><tbody><tr><td><img class="activityexpand" src="images/iatiminus.png" alt="-" /></td><td class="activity-title">UNICEF MOU: 2009 KENYA EMERGENCY HUMANITARIAN RESPONSE PLAN</td><td>Implementation</td><td class="date">2009-10-21
+                    -
+                    2009-12-31</td></tr><tr class="collapsed"><td></td><td colspan="3">To support UNICEF's activities under the 2009 Kenya Emergency Humanitarian Response Plan (EMRP) towards nutrition, health, water sanitation and hygiene.</td></tr><tr class="collapsed"><td></td><td colspan="3"><table class="iati-activity"><thead><tr><th> Budgets/Transations </th><th> Date </th><th> Amount </th><th> Start </th><th> End </th></tr></thead><tbody><tr><td>
+                   Budget - Commitment
+            </td><td class="date">2009-04-01</td><td class="amount">4000000</td><td class="date">2009-04-01</td><td class="date">2010-03-31</td></tr><tr class="evenrow"><td>
+                   Transaction - Disbursement
+            </td><td class="date">2010-03-31</td><td class="amount">4000000</td><td class="date">
+        -
+    </td><td class="date">
+        -
+    </td></tr></tbody></table></td></tr></tbody></table>
+                    <img class="collapseall" src="images/iatiminus.png" alt="[+] Collapse All" /> 
+                    <img class="expandall" src="images/iatiplus.png" alt="[+] Expand All" />                </div>
+
+    <div class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide" id="ui">
+      <h2>Which countries currently have the most donor activities?</h2>
+      <div id="map_area">
+    	<div webdeveloper-inline-style="display: none;" id="loading">
+	      Loading data, please wait...	    </div>
+	    <div webdeveloper-inline-style="display: block; position: relative;" id="map_canvas"><div id="google-visualization-geomap-0"><embed webdeveloper-inline-style="" type="application/x-shockwave-flash" src="http://ajax.googleapis.com/ajax/static/modules/gviz/1.0/geomap/geomap.swf" id="google-visualization-geomap-embed-0" name="google-visualization-geomap-embed-0" bgcolor="#FFFFFF" quality="high" menuc="false" wmode="opaque" allowscriptaccess="always" flashvars="staticFilePath=http://ajax.googleapis.com/ajax/static/modules/gviz/1.0/geomap/&amp;locale=i18n&amp;input=%7B%22GeoMap%22%3A%7B%22Minimums%22%3A%5B%5B0%2C0%5D%5D%2C%22Maximums%22%3A%5B%5B111%2C111%5D%5D%2C%22TargetId%22%3A%22world%22%2C%22ZoomLevel%22%3A%22COUNTRIES%22%2C%22PrimarySegmentKey%22%3A%22COUNTRY%22%2C%22DataLabels%22%3A%5B%22Activities%22%2C%22Activities%22%5D%2C%22ZoomOutEnabled%22%3Afalse%2C%22ZoomOutMessage%22%3A%22Zoom%20Out%22%2C%22ParentId%22%3A%22zoomout%22%2C%22DataIndex%22%3A0%2C%22Id%22%3A%22google.visualization.GeoMap-0%22%2C%22CityColors%22%3A%5B14745556%2C10874723%2C5286400%2C2519316%5D%2C%22RegionColors%22%3A%5B14745556%2C10874723%2C5286400%2C2519316%5D%2C%22LegendEnabled%22%3Atrue%2C%22Regions%22%3A%5B%7B%22Values%22%3A%5B%5B45%2C%2245%22%5D%5D%2C%22ColorKey%22%3A45%2C%22Id%22%3A%22RW%22%2C%22Lat%22%3Anull%2C%22Lng%22%3Anull%2C%22Name%22%3A%22RW%22%7D%2C%7B%22Values%22%3A%5B%5B84%2C%2284%22%5D%5D%2C%22ColorKey%22%3A84%2C%22Id%22%3A%22MW%22%2C%22Lat%22%3Anull%2C%22Lng%22%3Anull%2C%22Name%22%3A%22MW%22%7D%2C%7B%22Values%22%3A%5B%5B105%2C%22105%22%5D%5D%2C%22ColorKey%22%3A105%2C%22Id%22%3A%22PK%22%2C%22Lat%22%3Anull%2C%22Lng%22%3Anull%2C%22Name%22%3A%22PK%22%7D%2C%7B%22Values%22%3A%5B%5B53%2C%2253%22%5D%5D%2C%22ColorKey%22%3A53%2C%22Id%22%3A%22ZM%22%2C%22Lat%22%3Anull%2C%22Lng%22%3Anull%2C%22Name%22%3A%22ZM%22%7D%2C%7B%22Values%22%3A%5B%5B5%2C%225%22%5D%5D%2C%22ColorKey%22%3A5%2C%22Id%22%3A%22PE%22%2C%22Lat%22%3Anull%2C%22Lng%22%3Anull%2C%22Name%22%3A%22PE%22%7D%2C%7B%22Values%22%3A%5B%5B111%2C%22111%22%5D%5D%2C%22ColorKey%22%3A111%2C%22Id%22%3A%22IN%22%2C%22Lat%22%3Anull%2C%22Lng%22%3Anull%2C%22Name%22%3A%22IN%22%7D%2C%7B%22Values%22%3A%5B%5B7%2C%227%22%5D%5D%2C%22ColorKey%22%3A7%2C%22Id%22%3A%22GB%22%2C%22Lat%22%3Anull%2C%22Lng%22%3Anull%2C%22Name%22%3A%22GB%22%7D%2C%7B%22Values%22%3A%5B%5B66%2C%2266%22%5D%5D%2C%22ColorKey%22%3A66%2C%22Id%22%3A%22CN%22%2C%22Lat%22%3Anull%2C%22Lng%22%3Anull%2C%22Name%22%3A%22CN%22%7D%2C%7B%22Values%22%3A%5B%5B85%2C%2285%22%5D%5D%2C%22ColorKey%22%3A85%2C%22Id%22%3A%22NG%22%2C%22Lat%22%3Anull%2C%22Lng%22%3Anull%2C%22Name%22%3A%22NG%22%7D%2C%7B%22Values%22%3A%5B%5B72%2C%2272%22%5D%5D%2C%22ColorKey%22%3A72%2C%22Id%22%3A%22KE%22%2C%22Lat%22%3Anull%2C%22Lng%22%3Anull%2C%22Name%22%3A%22KE%22%7D%2C%7B%22Values%22%3A%5B%5B94%2C%2294%22%5D%5D%2C%22ColorKey%22%3A94%2C%22Id%22%3A%22UG%22%2C%22Lat%22%3Anull%2C%22Lng%22%3Anull%2C%22Name%22%3A%22UG%22%7D%2C%7B%22Values%22%3A%5B%5B29%2C%2229%22%5D%5D%2C%22ColorKey%22%3A29%2C%22Id%22%3A%22LK%22%2C%22Lat%22%3Anull%2C%22Lng%22%3Anull%2C%22Name%22%3A%22LK%22%7D%2C%7B%22Values%22%3A%5B%5B0%2C%220%22%5D%5D%2C%22ColorKey%22%3A0%2C%22Id%22%3A%22BF%22%2C%22Lat%22%3Anull%2C%22Lng%22%3Anull%2C%22Name%22%3A%22BF%22%7D%2C%7B%22Values%22%3A%5B%5B0%2C%220%22%5D%5D%2C%22ColorKey%22%3A0%2C%22Id%22%3A%22CO%22%2C%22Lat%22%3Anull%2C%22Lng%22%3Anull%2C%22Name%22%3A%22CO%22%7D%2C%7B%22Values%22%3A%5B%5B0%2C%220%22%5D%5D%2C%22ColorKey%22%3A0%2C%22Id%22%3A%22CD%22%2C%22Lat%22%3Anull%2C%22Lng%22%3Anull%2C%22Name%22%3A%22CD%22%7D%5D%7D%7D" height="400px" width="100%"></embed></div></div>
+	    <div id="controls">
+	        <p>Sources to Display</p>
+	        <form id="sources">
+	            <p>
+	                <input id="dfid" name="dfid" checked="checked" onChange="drawMap()" type="checkbox" />
+	                <label for="dfid">DFID</label>
+	            </p>
+                <p>
+                    <input id="worldbank" name="worldbank" onChange="drawMap()" type="checkbox" />
+                    <label for="worldbank">World Bank</label>
+                </p>
+                <p>
+                    <input id="undp" name="undp" onChange="drawMap()" type="checkbox" />
+                    <label for="undp">UNDP</label>
+                </p>
+            </form> 
+        </div>
+        <div webdeveloper-inline-style="display: block;" id="info">
+            This map is being dynamically generated using data from <a href="http://iatiregistry.org">http://iatiregistry.org</a>. Each country is coloured according to the number of activities a donor has recorded there. A darker colour suggests a greater number of donor activities.        </div>
+    </div>
+    <div id="clear">
+&nbsp;    </div>
+  </div>
+
+
+               <!-- <div id="tab-data">
+                    <h2>iati data</h2>
+                    <p>iati xml data </p>
+                    <ul>
+                        <li><a href="...">example 1</a></li>
+                        <li><a href="...">example 2</a></li>
+                        <li><a href="...">example 3</a></li>
+                    </ul>
+                </div>
+                <div id="tab-about">
+                    <h2>About IATI Labs</h2>
+                    <p>Visualising IATI data...</p>
+                </div> -->
+            </div>
+        </div>
+    <div id="credits">
+	    <p>made by <a href="http://www.aptivate.org">Apti<span id="V">V</span><span id="A">A</span>te</a></p>
+    </div>
+    </body>​​​​​</html>

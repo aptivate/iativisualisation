@@ -1,0 +1,2808 @@
+<?xml version="1.0"?>
+<iati-activities version="1.0">
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=107171-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">107171-101</other-identifier>
+    <related-activity ref="107171">HELMAND AGRICULTURE AND RURAL DEVELOPMENT PROGRAMME (HARDP): MRRD</related-activity>
+    <title>HELMAND AGRICULTURE AND RURAL DEVELOPMENT PROGRAMME (HARDP): MRRD - FINANCIAL AID</title>
+    <description>increase the economic opportunities of the rural poor in helmand, including those that make a living from growing poppy, through integrated support to improve their livelihood options</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2006-11-09"/>
+    <activity-date type="end" iso-date="2010-03-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="14030" percentage="30"/>
+    <sector vocabulary="DAC" ref="21020" percentage="30"/>
+    <sector vocabulary="DAC" ref="43040" percentage="40"/>
+    <finance-type>Other financial aid to government</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2006-04-01</period-start>
+      <period-end>2007-03-31</period-end>
+      <value value-date="2006-04-01">10000000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2007-03-31">10000000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2007-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">0</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">8241720</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">8241720</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=107173-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">107173-101</other-identifier>
+    <related-activity ref="107173">HORTICULTURE &amp; LIVESTOCK PROGRAMME</related-activity>
+    <title>HORTICULTURE &amp; LIVESTOCK PROGRAMME: IMPLEMENTATION</title>
+    <description>Increased productivity and marketable output of perennial horticulture; Increased productivity and improved output of livestock; Strengthened Ministry of Agriculture and Irrigation departments, to implement the project, monitor progress, and evaluate impact.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-02-01"/>
+    <activity-date type="end" iso-date="2009-12-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="31110" percentage="30"/>
+    <sector vocabulary="DAC" ref="43050" percentage="10"/>
+    <sector vocabulary="DAC" ref="31120" percentage="31"/>
+    <sector vocabulary="DAC" ref="31163" percentage="29"/>
+    <finance-type>Other financial aid to government</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2006-04-01</period-start>
+      <period-end>2007-03-31</period-end>
+      <value value-date="2006-04-01">1000000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2007-03-31">1000000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2007-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">0</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">3002029</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">3002029</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">2997971</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">2997971</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=107177-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">107177-101</other-identifier>
+    <related-activity ref="107177">SUSTAINABLE AGRICULTURAL LIVELIHOODS IN EASTERN HAZARAJAT (SALEH) PROGRAMME</related-activity>
+    <title>SUSTAINABLE AGRICULTURAL LIVELIHOODS IN EASTERN HAZARAJAT (SALEH) PROGRAMME</title>
+    <description>Capacity, opportunities and mechanisms developed for rural population in Eastern Hazarajat to achieve sustainable improvements in livelihoods.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2003-07-01"/>
+    <activity-date type="end" iso-date="2009-10-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="31110" percentage="100"/>
+    <finance-type>Multilateral organisation</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2003-04-01</period-start>
+      <period-end>2004-03-31</period-end>
+      <value value-date="2003-04-01">910229</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2004-03-31">910229</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2004-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2004-04-01</period-start>
+      <period-end>2005-03-31</period-end>
+      <value value-date="2004-04-01">435036</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2005-03-31">435036</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2005-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2005-04-01</period-start>
+      <period-end>2006-03-31</period-end>
+      <value value-date="2005-04-01">603222</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2006-03-31">603222</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2006-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2006-04-01</period-start>
+      <period-end>2007-03-31</period-end>
+      <value value-date="2006-04-01">1425403</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2007-03-31">1425403</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2007-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">0</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">396110</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">396110</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=107178-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">107178-101</other-identifier>
+    <related-activity ref="107178">SUPPORT TO STRATEGIC PLANNING FOR SUSTAINABLE RURAL LIVELIHOODS (SSPSRL)</related-activity>
+    <title>SUPPORT TO STRATEGIC PLANNING FOR SUSTAINABLE RURAL LIVELIHOODS (SSPSRL)</title>
+    <description>To strengthen the capacity of Afghan Government institutions concerned with agri...</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2003-10-01"/>
+    <activity-date type="end" iso-date="2010-01-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="31110" percentage="40"/>
+    <sector vocabulary="DAC" ref="15120" percentage="21"/>
+    <sector vocabulary="DAC" ref="43040" percentage="39"/>
+    <finance-type>Procurement of services</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2003-04-01</period-start>
+      <period-end>2004-03-31</period-end>
+      <value value-date="2003-04-01">160079</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2004-03-31">160079</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2004-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2004-04-01</period-start>
+      <period-end>2005-03-31</period-end>
+      <value value-date="2004-04-01">428648</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2005-03-31">428648</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2005-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2005-04-01</period-start>
+      <period-end>2006-03-31</period-end>
+      <value value-date="2005-04-01">685202</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2006-03-31">685202</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2006-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2006-04-01</period-start>
+      <period-end>2007-03-31</period-end>
+      <value value-date="2006-04-01">706546</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2007-03-31">706546</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2007-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">730579</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">730579</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">2150738</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">2150738</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">2222076</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">1980928</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=107196-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">107196-101</other-identifier>
+    <related-activity ref="107196">MICROFINANCE INVESTMENT SUPPORT FACILITY FOR AFGHANISTAN (MISFA)</related-activity>
+    <title>MICROFINANCE INVESTMENT SUPPORT FACILITY FOR AFGHANISTAN (MISFA) PHASE I &amp; II</title>
+    <description>To help microfinance service institutions expand access to financial services to meet the needs and demands of many poor Afghans, especially women.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2004-03-01"/>
+    <activity-date type="end" iso-date="2010-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="24010" percentage="30"/>
+    <sector vocabulary="DAC" ref="33110" percentage="70"/>
+    <finance-type>Other financial aid to government</finance-type>
+    <related-initiative ref="107196-102" type="Component"/>
+    <related-initiative ref="107196-103" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2003-04-01</period-start>
+      <period-end>2004-03-31</period-end>
+      <value value-date="2003-04-01">1000000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2004-03-31">1000000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2004-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2004-04-01</period-start>
+      <period-end>2005-03-31</period-end>
+      <value value-date="2004-04-01">2000000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2005-03-31">2000000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2005-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2005-04-01</period-start>
+      <period-end>2006-03-31</period-end>
+      <value value-date="2005-04-01">2000000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2006-03-31">2000000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2006-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2006-04-01</period-start>
+      <period-end>2007-03-31</period-end>
+      <value value-date="2006-04-01">10000000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2007-03-31">10000000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2007-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">13620</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">13620</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">0</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">4619</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=107196-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">107196-102</other-identifier>
+    <related-activity ref="107196">MICROFINANCE INVESTMENT SUPPORT FACILITY FOR AFGHANISTAN (MISFA)</related-activity>
+    <title>MICROFINANCE INVESTMENT SUPPORT FACILITY FOR AFGHANISTAN (MISFA) PHASE I &amp; II</title>
+    <description>To help microfinance service institutions expand access to financial services to meet the needs and demands of many poor Afghans, especially women.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2004-03-01"/>
+    <activity-date type="end" iso-date="2010-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="24010" percentage="30"/>
+    <sector vocabulary="DAC" ref="33110" percentage="70"/>
+    <finance-type>Procurement of services</finance-type>
+    <related-initiative ref="107196-103" type="Component"/>
+    <related-initiative ref="107196-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">10004635</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">10004635</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">4987381</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">4987381</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=107196-103</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">107196-103</other-identifier>
+    <related-activity ref="107196">MICROFINANCE INVESTMENT SUPPORT FACILITY FOR AFGHANISTAN (MISFA)</related-activity>
+    <title>MISFA PCR CONSULTANCY COSTS</title>
+    <description>To help microfinance service institutions expand access to financial services to meet the needs and demands of many poor Afghans, especially women.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2004-03-01"/>
+    <activity-date type="end" iso-date="2010-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="25010" percentage="100"/>
+    <finance-type>Procurement of services</finance-type>
+    <related-initiative ref="107196-101" type="Component"/>
+    <related-initiative ref="107196-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">8000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">5497</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=107234-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">107234-101</other-identifier>
+    <related-activity ref="107234">STRENGTHENING GOVERNANCE IN HELMAND</related-activity>
+    <title>UNHabitat Strengthening Municipal and Community Development Programme Phase 1</title>
+    <description>To improve the municipal and community governance system through a programme that co-develops and implements activities that address the needs of the people in Lashkar Gah at the community and city level</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-01-01"/>
+    <activity-date type="end" iso-date="2008-02-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15120" percentage="100"/>
+    <finance-type>Multilateral organisation</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2006-04-01</period-start>
+      <period-end>2007-03-31</period-end>
+      <value value-date="2006-04-01">300000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2007-03-31">300000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2007-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">154244</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">154244</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=107235-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">107235-101</other-identifier>
+    <related-activity ref="107235">SUPPORT TO AREU</related-activity>
+    <title>SUPPORT TO AREU - COMPONENT I</title>
+    <description>Better evidence-based Government of Afghanistan policies, through generating and disseminating knowledge through research.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-03-01"/>
+    <activity-date type="end" iso-date="2010-02-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15120" percentage="100"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="107235-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">480156</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">480156</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">1749124</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">1749124</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">313271</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">313271</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=107235-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">107235-102</other-identifier>
+    <related-activity ref="107235">SUPPORT TO AREU</related-activity>
+    <title>SUPPORT TO AREU - COMPONENT II AG</title>
+    <description>Better evidence-based Government of Afghanistan policies, through generating and disseminating knowledge through research.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-03-01"/>
+    <activity-date type="end" iso-date="2010-03-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15120" percentage="100"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="107235-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">301449</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">298983</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=107341-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">107341-101</other-identifier>
+    <related-activity ref="107341">WOMEN'S EMPOWERMENT PROGRAMME IN AFGHANISTAN CSCF315</related-activity>
+    <title>NOTFORPROFITORG and P0118 for Women's Empowerment Programme in Afghanistan CSCF315</title>
+    <description>To ensure gender equality in the social and political sphere and build an active civil society in Afghanistan.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2005-04-01"/>
+    <activity-date type="end" iso-date="2010-03-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15150" percentage="20"/>
+    <sector vocabulary="DAC" ref="15162" percentage="80"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="107341-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2005-04-01</period-start>
+      <period-end>2006-03-31</period-end>
+      <value value-date="2005-04-01">81134</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2006-03-31">81134</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2006-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2006-04-01</period-start>
+      <period-end>2007-03-31</period-end>
+      <value value-date="2006-04-01">91332</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2007-03-31">91332</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2007-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">88421</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">88421</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">132766</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">124951</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">-7815</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=107341-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">107341-102</other-identifier>
+    <related-activity ref="107341">WOMEN'S EMPOWERMENT PROGRAMME IN AFGHANISTAN CSCF315</related-activity>
+    <title>ACCOUNTABLE GRANT CSCF0315: WOMENS EMPOWERMENT PROJECT - AFGHANISTAN</title>
+    <description>To ensure gender equality in the social and political sphere and build an active civil society in Afghanistan.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2005-04-01"/>
+    <activity-date type="end" iso-date="2010-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15162" percentage="80"/>
+    <sector vocabulary="DAC" ref="15150" percentage="20"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="107341-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">82993</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">78104</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=107342-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">107342-101</other-identifier>
+    <related-activity ref="107342">BUILDING A NATIONAL PROTECTIVE ENVIRON FOR CHILDREN CSCF399</related-activity>
+    <title>NOTFORPROFITORG and P0118 for Building a National Protective Environ for Children CSCF399</title>
+    <description>To enhance the capacity of local civil society to address the problems that exacerbate the vulnerability of Children in Conflict with the Law (CICL) and children at risk of conflict with the law in Herat, Afghanistan.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-04-01"/>
+    <activity-date type="end" iso-date="2010-03-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="12261" percentage="20"/>
+    <sector vocabulary="DAC" ref="15162" percentage="45"/>
+    <sector vocabulary="DAC" ref="16010" percentage="35"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="107342-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">43391</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">43391</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">58209</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">58209</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=107342-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">107342-102</other-identifier>
+    <related-activity ref="107342">BUILDING A NATIONAL PROTECTIVE ENVIRON FOR CHILDREN CSCF399</related-activity>
+    <title>ACCOUNTABLE GRANT CSCF0399: BUILDING A NATIOANL PROTECTIVE ENVIRONMENT FOR CHILDREN VULVERABLE TO CONFLICT WITH THE LAW THROUGH A CO-ORDINATED CIVIL SOCIETY ACTION NETWORK</title>
+    <description>To enhance the capacity of local civil society to address the problems that exacerbate the vulnerability of Children in Conflict with the Law (CICL) and children at risk of conflict with the law in Herat, Afghanistan.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-07-27"/>
+    <activity-date type="end" iso-date="2010-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="16010" percentage="35"/>
+    <sector vocabulary="DAC" ref="15162" percentage="45"/>
+    <sector vocabulary="DAC" ref="12261" percentage="20"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="107342-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">111571</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">82251</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113309-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113309-101</other-identifier>
+    <related-activity ref="113309">PROMOTING GENDER EQUITY &amp; SUSTAINABLE L/HOODS CSCF404</related-activity>
+    <title>NOTFORPROFITORG and P0118 for Promoting Gender Equity &amp; Sustainable L/hoods CSCF404</title>
+    <description>To provide representative and educational radio programming which tackles two key development and governance priorities within the Afghan context - gender equity and alternative livelihoods to poppy cultivation</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-04-01"/>
+    <activity-date type="end" iso-date="2010-03-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15150" percentage="70"/>
+    <sector vocabulary="DAC" ref="31110" percentage="30"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="113309-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">87353</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">87353</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">90720</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">90720</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113309-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113309-102</other-identifier>
+    <related-activity ref="113309">PROMOTING GENDER EQUITY &amp; SUSTAINABLE L/HOODS CSCF404</related-activity>
+    <title>ACCOUNTABLE GRANT CSCF0404: AFGHAN VOICES: PROMOTING GENDER EQUALITY AND SUSTAINABLE LIVELIHOODS ON THE AIRWAYS</title>
+    <description>To provide representative and educational radio programming which tackles two key development and governance priorities within the Afghan context - gender equity and alternative livelihoods to poppy cultivation</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-11-12"/>
+    <activity-date type="end" iso-date="2010-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="31110" percentage="30"/>
+    <sector vocabulary="DAC" ref="15150" percentage="70"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="113309-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">33017</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">33017</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">263286</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">89134</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113361-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113361-101</other-identifier>
+    <related-activity ref="113361">STRENGTHENING NATIONAL BUDGET</related-activity>
+    <title>STRENGTHENING NATIONAL BUDGET - UNDP MBAW</title>
+    <description>The Ministry of Finance (MoF) effectively leading implementation of Public Financial Management (PFM) reforms in key Afghan line ministries and at the provincial level, improvement of coordination of external funding through the National Budget, and building greater levels of PFM capacity in key line ministries.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-11-01"/>
+    <activity-date type="end" iso-date="2010-11-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15120" percentage="40"/>
+    <sector vocabulary="DAC" ref="15110" percentage="60"/>
+    <finance-type>Multilateral organisation</finance-type>
+    <related-initiative ref="113361-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">416666</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">416666</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">1071962</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">1071962</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">594702</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">386369</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2010-04-01</period-start>
+      <period-end>2011-03-31</period-end>
+      <value value-date="2010-04-01">416666</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2011-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2011-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113361-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113361-102</other-identifier>
+    <related-activity ref="113361">STRENGTHENING NATIONAL BUDGET</related-activity>
+    <title>STRENGTHENING NATIONAL BUDGET - TECHNICAL ASSISTANCE</title>
+    <description>The Ministry of Finance (MoF) effectively leading implementation of Public Financial Management (PFM) reforms in key Afghan line ministries and at the provincial level, improvement of coordination of external funding through the National Budget, and building greater levels of PFM capacity in key line ministries.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-11-01"/>
+    <activity-date type="end" iso-date="2010-11-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15110" percentage="60"/>
+    <sector vocabulary="DAC" ref="15120" percentage="40"/>
+    <finance-type>Procurement of services</finance-type>
+    <related-initiative ref="113361-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">-4233912</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">217691</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">2510513</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">2510513</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">7734132</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">3183938</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2010-04-01</period-start>
+      <period-end>2011-03-31</period-end>
+      <value value-date="2010-04-01">1289271</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2011-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2011-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113362-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113362-101</other-identifier>
+    <related-activity ref="113362">STRENGTHENING TAX ADMINISTRATION</related-activity>
+    <title>STRENGTHENING TAX ADMINISTRATION: TECHNICAL ASSISTANCE</title>
+    <description>To support continued reform and development of an effective, modern and broadbased tax system, in line with Ministry of Finance’s 5 year revenue reform plan</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-07-01"/>
+    <activity-date type="end" iso-date="2011-07-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15110" percentage="40"/>
+    <sector vocabulary="DAC" ref="24010" percentage="60"/>
+    <finance-type>Procurement of services</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">29974</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">29974</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">2195578</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">2195578</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">5378521</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">5317376</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2010-04-01</period-start>
+      <period-end>2011-03-31</period-end>
+      <value value-date="2010-04-01">5941901</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2011-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2011-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2011-04-01</period-start>
+      <period-end>2012-03-31</period-end>
+      <value value-date="2011-04-01">1980966</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2012-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2012-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113405-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113405-101</other-identifier>
+    <related-activity ref="113405">HELMAND AGRICULTURE AND RURAL DEVELOPMENT PROGRAMME (HARDP): NABDP</related-activity>
+    <title>HELMAND AGRICULTURE AND RURAL DEVELOPMENT PROGRAMME (HARDP): NABDP - IMPLEMENTATION</title>
+    <description>Increase the economic opportunities of the rural poor in Helmand, including those that make a living from growing poppy, through integrated support to improve their livelihood options</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-12-24"/>
+    <activity-date type="end" iso-date="2010-03-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="21020" percentage="20"/>
+    <sector vocabulary="DAC" ref="14030" percentage="20"/>
+    <sector vocabulary="DAC" ref="43040" percentage="60"/>
+    <finance-type>Multilateral organisation</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">2500000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">2500000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">1871547</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">1871547</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">3973522</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">3973522</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113443-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113443-101</other-identifier>
+    <related-activity ref="113443">HELMAND AGRICULTURE AND RURAL DEVELOPMENT PROGRAMME (HARDP): HASIL</related-activity>
+    <title>HELMAND AGRICULTURE AND RURAL DEVELOPMENT PROGRAMME (HARDP): HASIL - IMPLEMENTATION</title>
+    <description>Increase the economic opportunities of the rural poor in Helmand, including those that make a living from growing poppy, through integrated support to improve their livelihood options</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-10-19"/>
+    <activity-date type="end" iso-date="2010-03-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="14030" percentage="10"/>
+    <sector vocabulary="DAC" ref="31110" percentage="30"/>
+    <sector vocabulary="DAC" ref="43040" percentage="60"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="113443-103" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">875348</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">875348</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">2186678</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">2186678</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">1236782</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">1236782</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113443-103</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113443-103</other-identifier>
+    <related-activity ref="113443">HELMAND AGRICULTURE AND RURAL DEVELOPMENT PROGRAMME (HARDP): HASIL</related-activity>
+    <title>HELMAND AGRICULTURE AND RURAL DEVELOPMENT PROGRAMME (HARDP): HASIL - IMPLEMENTATION</title>
+    <description>Increase the economic opportunities of the rural poor in Helmand, including those that make a living from growing poppy, through integrated support to improve their livelihood options</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-10-19"/>
+    <activity-date type="end" iso-date="2010-03-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="31110" percentage="30"/>
+    <sector vocabulary="DAC" ref="14030" percentage="10"/>
+    <sector vocabulary="DAC" ref="43040" percentage="60"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="113443-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">830305</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">580739</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113643-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113643-101</other-identifier>
+    <related-activity ref="113643">SUPPORT TO STRATEGIC GOVERNMENT COMMUNICATIONS</related-activity>
+    <title>SUPPORT TO STRATEGIC GOVERNMENT COMMUNICATIONS</title>
+    <description>An effective GoA communication strategy prepared and implemented by a well-organised and competent office of the presidential spokesperson</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-02-01"/>
+    <activity-date type="end" iso-date="2009-09-30"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15110" percentage="100"/>
+    <finance-type>Multilateral organisation</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">450000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">450000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">500000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">500000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">425000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">425000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113644-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113644-101</other-identifier>
+    <related-activity ref="113644">SUPPORT TO HALO TRUST PROGRAMME.</related-activity>
+    <title>SUPPORT TO HALO TRUST PROGRAMME (COMPONENT-1)</title>
+    <description>To return 160.2 million m2 of high priority mined land and explosive remnants of war (ERW) contaminated land to productive use and contribute to the achievement of the Afghan compact benchmark for mine action and ammunition</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-02-01"/>
+    <activity-date type="end" iso-date="2013-01-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15250" percentage="100"/>
+    <finance-type>Emergency aid</finance-type>
+    <related-initiative ref="113644-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">3196512</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">3196512</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">1496111</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">1496111</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">270243</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">270243</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113644-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113644-102</other-identifier>
+    <related-activity ref="113644">SUPPORT TO HALO TRUST PROGRAMME.</related-activity>
+    <title>SUPPORT TO HALO TRUST PROGRAMME (COMPONENT-2)</title>
+    <description>To return 160.2 million m2 of high priority mined land and explosive remnants of war (ERW) contaminated land to productive use and contribute to the achievement of the Afghan compact benchmark for mine action and ammunition</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-02-01"/>
+    <activity-date type="end" iso-date="2013-01-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15250" percentage="100"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="113644-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">1873863</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">1873863</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2010-04-01</period-start>
+      <period-end>2011-03-31</period-end>
+      <value value-date="2010-04-01">964704</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2011-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2011-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2011-04-01</period-start>
+      <period-end>2012-03-31</period-end>
+      <value value-date="2011-04-01">1554405</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2012-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2012-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2012-04-01</period-start>
+      <period-end>2013-03-31</period-end>
+      <value value-date="2012-04-01">1284162</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2013-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2013-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113661-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113661-101</other-identifier>
+    <related-activity ref="113661">STRENGTHENING MUNICIPAL &amp; COMMUNITY DEVELOPMENT IN HELMAND</related-activity>
+    <title>STRENGTHENING MUNICIPAL &amp; COMMUNITY DEVELOPMENT IN HELMAND</title>
+    <description>Infrastructure improvements in up to four districts underpinned by community participation and municipality-led planning</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-02-01"/>
+    <activity-date type="end" iso-date="2010-01-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="14030" percentage="15"/>
+    <sector vocabulary="DAC" ref="14050" percentage="15"/>
+    <sector vocabulary="DAC" ref="15140" percentage="70"/>
+    <finance-type>Multilateral organisation</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2007-04-01</period-start>
+      <period-end>2008-03-31</period-end>
+      <value value-date="2007-04-01">800000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2008-03-31">800000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2008-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">602810</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">602810</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">997190</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">997190</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113779-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113779-101</other-identifier>
+    <related-activity ref="113779">AFGHANISTAN INVESTMENT CLIMATE FACILITY (HARAKAT)</related-activity>
+    <title>AFGHANISTAN INVESTMENT CLIMATE FACILITY: DESIGN</title>
+    <description>Make Afghanistan a better place to do business by removing obstacles and constraints to domestic and private investment</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-02-01"/>
+    <activity-date type="end" iso-date="2011-06-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="33110" percentage="51"/>
+    <sector vocabulary="DAC" ref="32130" percentage="49"/>
+    <finance-type>Procurement of services</finance-type>
+    <related-initiative ref="113779-102" type="Component"/>
+    <related-initiative ref="113779-103" type="Component"/>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113779-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113779-102</other-identifier>
+    <related-activity ref="113779">AFGHANISTAN INVESTMENT CLIMATE FACILITY (HARAKAT)</related-activity>
+    <title>AFGHANISTAN INVESTMENT CLIMATE FACILITY: TECHNICAL ASSISTANCE</title>
+    <description>Make Afghanistan a better place to do business by removing obstacles and constraints to domestic and private investment</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-02-01"/>
+    <activity-date type="end" iso-date="2011-06-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="32130" percentage="49"/>
+    <sector vocabulary="DAC" ref="33110" percentage="51"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="113779-103" type="Component"/>
+    <related-initiative ref="113779-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">618379</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">618379</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">2428900</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">1637399</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2010-04-01</period-start>
+      <period-end>2011-03-31</period-end>
+      <value value-date="2010-04-01">2428900</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2011-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2011-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2011-04-01</period-start>
+      <period-end>2012-03-31</period-end>
+      <value value-date="2011-04-01">2428900</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2012-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2012-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2012-04-01</period-start>
+      <period-end>2013-03-31</period-end>
+      <value value-date="2012-04-01">2428900</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2013-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2013-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113779-103</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113779-103</other-identifier>
+    <related-activity ref="113779">AFGHANISTAN INVESTMENT CLIMATE FACILITY (HARAKAT)</related-activity>
+    <title>AFGHANISTAN INVESTMENT CLIMATE FACILITY: OPERATION</title>
+    <description>Make Afghanistan a better place to do business by removing obstacles and constraints to domestic and private investment</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-02-01"/>
+    <activity-date type="end" iso-date="2011-06-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="33110" percentage="51"/>
+    <sector vocabulary="DAC" ref="32130" percentage="49"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="113779-101" type="Component"/>
+    <related-initiative ref="113779-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">245348</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">245348</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">4199456</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">2338513</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2010-04-01</period-start>
+      <period-end>2011-03-31</period-end>
+      <value value-date="2010-04-01">142200</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2011-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2011-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2011-04-01</period-start>
+      <period-end>2012-03-31</period-end>
+      <value value-date="2011-04-01">142200</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2012-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2012-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2012-04-01</period-start>
+      <period-end>2013-03-31</period-end>
+      <value value-date="2012-04-01">142200</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2013-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2013-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2013-04-01</period-start>
+      <period-end>2014-03-31</period-end>
+      <value value-date="2013-04-01">2864000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2014-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2014-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2014-04-01</period-start>
+      <period-end>2015-03-31</period-end>
+      <value value-date="2014-04-01">3806914</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2015-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2015-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113814-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113814-101</other-identifier>
+    <related-activity ref="113814">SUPPORT TO  INDEPENDENT DIRECTORATE FOR LOCAL GOVERNMENT IDLG II</related-activity>
+    <title>SUPPORT TO IDLG II -  COMMPONENT I</title>
+    <description>IDLG capable of initiating provincial stabilisation and sub-national governance policy process</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-12-01"/>
+    <activity-date type="end" iso-date="2010-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15140" percentage="60"/>
+    <sector vocabulary="DAC" ref="15110" percentage="20"/>
+    <sector vocabulary="DAC" ref="15120" percentage="20"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="113814-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">1001642</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">1001642</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">304313</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">304321</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113814-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113814-102</other-identifier>
+    <related-activity ref="113814">SUPPORT TO  INDEPENDENT DIRECTORATE FOR LOCAL GOVERNMENT IDLG II</related-activity>
+    <title>SUPPORT TO IDLG - COMMPONENT II AG</title>
+    <description>IDLG capable of initiating provincial stabilisation and sub-national governance policy process</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-12-01"/>
+    <activity-date type="end" iso-date="2010-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15120" percentage="20"/>
+    <sector vocabulary="DAC" ref="15110" percentage="20"/>
+    <sector vocabulary="DAC" ref="15140" percentage="60"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="113814-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">1194596</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">757576</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113893-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113893-101</other-identifier>
+    <related-activity ref="113893">IMPROVING EVIDENCE FOR LIVELIHOODS PROGRAMMING (IELP)</related-activity>
+    <title>IMPROVING EVIDENCE FOR LIVELIHOODS PROGRAMMING (IELP)</title>
+    <description>To provide robust and relevant information about livelihoods and the impact of r...</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-11-01"/>
+    <activity-date type="end" iso-date="2010-04-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="43082" percentage="100"/>
+    <finance-type>Procurement of services</finance-type>
+    <related-initiative ref="113893-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">278191</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">278191</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">182197</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">162075</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=113893-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">113893-102</other-identifier>
+    <related-activity ref="113893">IMPROVING EVIDENCE FOR LIVELIHOODS PROGRAMMING (IELP)</related-activity>
+    <title>IMPROVING EVIDENCE FOR LIVELIHOODS PROGRAMMING (IELP): TECHNICAL ASSISTANCE (ALCIS)</title>
+    <description>To provide robust and relevant information about livelihoods and the impact of r...</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2007-11-01"/>
+    <activity-date type="end" iso-date="2010-04-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="43082" percentage="100"/>
+    <finance-type>Procurement of services</finance-type>
+    <related-initiative ref="113893-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">75519</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">75519</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114023-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114023-101</other-identifier>
+    <related-activity ref="114023">WORLD BANK SUB NATIONAL GOVERNANCE POST.</related-activity>
+    <title>WORLD BANK SUB NATIONAL GOVERNANCE POST</title>
+    <description>Work focused on strengthening the institutional and fiscal intergovernmental system as a whole, including the different organs of governance and service-delivery at the sub-national level (provincial line departments, provincial governors' offices, provincial councils, municipalities and so on)</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-03-01"/>
+    <activity-date type="end" iso-date="2010-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15140" percentage="100"/>
+    <finance-type>Multilateral organisation</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">77716</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">77716</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">60731</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">49509</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114037-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114037-101</other-identifier>
+    <related-activity ref="114037">HELMAND RULE OF LAW</related-activity>
+    <title>PROCOFSERVICES AND P0287 FOR SAF: RULE OF LAW PROGRAMME</title>
+    <description>To contribute to the Helmand Roadmap,  developing institutions and processes that uphold the basic property rights sufficient to underwrite a political settlement and the freedoms of movement, association and expression.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-05-01"/>
+    <activity-date type="end" iso-date="2011-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15130" percentage="70"/>
+    <sector vocabulary="DAC" ref="15220" percentage="30"/>
+    <finance-type>Procurement of services</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">369384</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">267778</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">1318000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">-63475</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2010-04-01</period-start>
+      <period-end>2011-03-31</period-end>
+      <value value-date="2010-04-01">1378253</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2011-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2011-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114038-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114038-101</other-identifier>
+    <related-activity ref="114038">HELMAND AREA BASED STABILISATION</related-activity>
+    <title>PROCOFSERVICES AND P0287 FOR SAF AREA BASED STABILISATION</title>
+    <description>Deployment of capable and effective civilian experts to support delivery of the Helmand Roadmap</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-05-01"/>
+    <activity-date type="end" iso-date="2011-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15220" percentage="50"/>
+    <sector vocabulary="DAC" ref="15150" percentage="20"/>
+    <sector vocabulary="DAC" ref="15140" percentage="30"/>
+    <finance-type>Procurement of services</finance-type>
+    <related-initiative ref="114038-102" type="Component"/>
+    <related-initiative ref="114038-103" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">912009</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">912009</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">1718723</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">-30940</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114038-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114038-102</other-identifier>
+    <related-activity ref="114038">HELMAND AREA BASED STABILISATION</related-activity>
+    <title>HABS PROJECT SUPPORT STAFF</title>
+    <description>Deployment of capable and effective civilian experts to support delivery of the Helmand Roadmap</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-05-01"/>
+    <activity-date type="end" iso-date="2011-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <finance-type>Procurement of services</finance-type>
+    <related-initiative ref="114038-103" type="Component"/>
+    <related-initiative ref="114038-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">428609</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">-7480</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114121-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114121-101</other-identifier>
+    <related-activity ref="114121">INCREASING FOOD PRODUCTION FOR AFGHANISTAN (IFPA)</related-activity>
+    <title>INCREASING FOOD PRODUCTION FOR AFGHANISTAN (IFPA): CONSULTANCY</title>
+    <description>Improved access for farmers to subsidized agricultural inputs, and to credit by seed enterprises to increase staple food production in Afghanistan during the 2008/09 agricultural season</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-09-01"/>
+    <activity-date type="end" iso-date="2009-09-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="31120" percentage="100"/>
+    <finance-type>Procurement of services</finance-type>
+    <related-initiative ref="114121-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">1716661</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">1716661</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114121-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114121-102</other-identifier>
+    <related-activity ref="114121">INCREASING FOOD PRODUCTION FOR AFGHANISTAN (IFPA)</related-activity>
+    <title>INCREASING FOOD PRODUCTION FOR AFGHANISTAN (IFPA): IMPLEMENTATION</title>
+    <description>Improved access for farmers to subsidized agricultural inputs, and to credit by seed enterprises to increase staple food production in Afghanistan during the 2008/09 agricultural season</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-09-01"/>
+    <activity-date type="end" iso-date="2009-09-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="31120" percentage="100"/>
+    <finance-type>Multilateral organisation</finance-type>
+    <related-initiative ref="114121-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">3081345</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">3081345</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">701994</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">694937</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114216-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114216-101</other-identifier>
+    <related-activity ref="114216">HELMAND SUPPORT PROJECT</related-activity>
+    <title>PROCOFSERVICES AND P0165 FOR HELMAND SUPPORT PROJECT</title>
+    <description>To contribute to the Helmand Roadmap, supporting the governance, district stabilisation, rule of law and counter narcotis projects</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-09-01"/>
+    <activity-date type="end" iso-date="2010-08-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15220" percentage="100"/>
+    <finance-type>Procurement of services</finance-type>
+    <related-initiative ref="114216-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">112751</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">112751</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">954323</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">70790</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2010-04-01</period-start>
+      <period-end>2011-03-31</period-end>
+      <value value-date="2010-04-01">77264</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2011-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2011-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114216-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114216-102</other-identifier>
+    <related-activity ref="114216">HELMAND SUPPORT PROJECT</related-activity>
+    <title>PROCURMENT OF GOODS</title>
+    <description>To contribute to the Helmand Roadmap, supporting the governance, district stabilisation, rule of law and counter narcotis projects</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-09-01"/>
+    <activity-date type="end" iso-date="2010-08-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15220" percentage="100"/>
+    <finance-type>Procurement of goods</finance-type>
+    <related-initiative ref="114216-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">18831</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">9115</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114225-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114225-101</other-identifier>
+    <related-activity ref="114225">HELMAND GOVERNANCE</related-activity>
+    <title>PROCOFSERVICES AND P0287 FOR SAF GOVERNANCE PROGRAMME FOR HELMAND</title>
+    <description>To contribute to the Helmand Roadmap, supporting district authorities and the provinicial-level Administration in building more effective governance.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-05-01"/>
+    <activity-date type="end" iso-date="2011-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15220" percentage="30"/>
+    <sector vocabulary="DAC" ref="15140" percentage="70"/>
+    <finance-type>Procurement of services</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">202714</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">202414</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">753373</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">-70958</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2010-04-01</period-start>
+      <period-end>2011-03-31</period-end>
+      <value value-date="2010-04-01">596253</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2011-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2011-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114232-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114232-101</other-identifier>
+    <related-activity ref="114232">SNG ADVISER- HELMAND</related-activity>
+    <title>SUB NATIONAL GOVERNANCE ADVISER IN HELMAND</title>
+    <description>to enable to DFID office to provide technical support to the government of Afghanistan to deliver on its Helmand and statebuilding objectives</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-09-01"/>
+    <activity-date type="end" iso-date="2011-01-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15140" percentage="100"/>
+    <finance-type>Procurement of services</finance-type>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114287-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114287-102</other-identifier>
+    <related-activity ref="114287">HELMAND INFRASTRUCTURE: GERESHK HYDRO POWER PLANT</related-activity>
+    <title>HELMAND: GERESHK HYDRO POWER PLANT: ACCESS ROAD</title>
+    <description>To design a programme to rehabilitate/expand the Gereshk Hydropower Plant and electricity distribution network to increase supply and reliability of electricity resulting in savings on fuel and other operating costs for individuals and small businesses in and around Gereshk in Helmand Afghanistan</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-02-01"/>
+    <activity-date type="end" iso-date="2010-03-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="21020" percentage="100"/>
+    <finance-type>Procurement of services</finance-type>
+    <related-initiative ref="114287-103" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">887397</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">280955</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114287-103</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114287-103</other-identifier>
+    <related-activity ref="114287">HELMAND INFRASTRUCTURE: GERESHK HYDRO POWER PLANT</related-activity>
+    <title>HELMAND INFRASTRUCTURE: GERESHK HYDRO POWER PLANT: IMPLEMENTATION</title>
+    <description>To design a programme to rehabilitate/expand the Gereshk Hydropower Plant and electricity distribution network to increase supply and reliability of electricity resulting in savings on fuel and other operating costs for individuals and small businesses in and around Gereshk in Helmand Afghanistan</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-02-01"/>
+    <activity-date type="end" iso-date="2013-09-30"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <finance-type>Multilateral organisation</finance-type>
+    <related-initiative ref="114287-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2010-04-01</period-start>
+      <period-end>2011-03-31</period-end>
+      <value value-date="2010-04-01">3000000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2011-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2011-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2011-04-01</period-start>
+      <period-end>2012-03-31</period-end>
+      <value value-date="2011-04-01">3000000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2012-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2012-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2012-04-01</period-start>
+      <period-end>2013-03-31</period-end>
+      <value value-date="2012-04-01">3000000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2013-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2013-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114319-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114319-101</other-identifier>
+    <related-activity ref="114319">AFGHANISTAN MARKET PLACE: TECHNICAL ASSISTANCE</related-activity>
+    <title>AFGHANISTAN MARKET PLACE: TECHNICAL ASSISTANCE</title>
+    <description>Increase local procurement in Helmand by national and international organisations</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-12-01"/>
+    <activity-date type="end" iso-date="2010-12-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="25010" percentage="60"/>
+    <sector vocabulary="DAC" ref="32130" percentage="40"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="114319-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">300512</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">300512</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">-75568</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">-75568</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114319-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114319-102</other-identifier>
+    <related-activity ref="114319">AFGHANISTAN MARKET PLACE: TECHNICAL ASSISTANCE</related-activity>
+    <title>AFGHANISTAN MARKET PLACE: TECHNICAL ASSISTANCE</title>
+    <description>Increase local procurement in Helmand by national and international organisations</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-12-01"/>
+    <activity-date type="end" iso-date="2010-12-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="32130" percentage="40"/>
+    <sector vocabulary="DAC" ref="25010" percentage="60"/>
+    <finance-type>Not for profit organisation</finance-type>
+    <related-initiative ref="114319-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">495056</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">54360</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114449-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114449-101</other-identifier>
+    <related-activity ref="114449">AGRICULTURAL ADVISER</related-activity>
+    <title>AGRICULTURAL ADVISER</title>
+    <description>To provide technical support to the Ministry of Agriculture, Irrigation and Livestock to implement its agricultural masterplan as well as providing support to development of UK agricultural programmes (DFID and PRT)</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-12-01"/>
+    <activity-date type="end" iso-date="2009-12-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="31110" percentage="90"/>
+    <sector vocabulary="DAC" ref="43040" percentage="10"/>
+    <finance-type>Procurement of services</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">3079</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">3079</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">246921</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">205360</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114464-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114464-101</other-identifier>
+    <related-activity ref="114464">OCHA AFGHANISTAN 2009</related-activity>
+    <title>OCHA AFGHANISTAN 2009</title>
+    <description>To enhance the facilitation of humanitarian response in collaboration with the host government, UN Agencies, NGOs, Local Authorites, Civil Society, Donors and other Partners through supporting the establishment of an OCHA office in Kabul and 5 sub offices</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-01-01"/>
+    <activity-date type="end" iso-date="2009-12-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="72050" percentage="100"/>
+    <finance-type>Emergency aid</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">56962</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">56962</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">693038</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">693038</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114470-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114470-101</other-identifier>
+    <related-activity ref="114470">SUPPORT TO MOCI</related-activity>
+    <title>SUPPORT TO MINISTRY OF COMMERCE AND INDUSTRIES (MOCI): TECHNICAL ASSISTANCE</title>
+    <description>To provide support to the Ministry of Commerce and Industry to develop a business plan that clearly prioritises and sequences reforms and lays out a detailed plan for their implementation</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-02-01"/>
+    <activity-date type="end" iso-date="2010-02-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15110" percentage="100"/>
+    <finance-type>Procurement of services</finance-type>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114474-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114474-101</other-identifier>
+    <related-activity ref="114474">AFGHANISTANELECTIONS2009-2011</related-activity>
+    <title>AFGHANISTANELECTIONS2009-2011</title>
+    <description>Independent Election Commission able to manage election operations competently, with adequate preparation by Civil Society to encourage informed voter participation.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-03-01"/>
+    <activity-date type="end" iso-date="2011-06-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15150" percentage="20"/>
+    <sector vocabulary="DAC" ref="15161" percentage="80"/>
+    <finance-type>Multilateral organisation</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">5000000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">5000000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114482-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114482-101</other-identifier>
+    <related-activity ref="114482">UNDP ACCOUNT &amp; TRANSPARENCY</related-activity>
+    <title>SUPPORT TO UNDP ACCOUNT&amp;TRANSPARENCY</title>
+    <description>Capacity of National and local Government institutions to tackle corruption is improved with Civil society providing greater demand for reform</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-03-01"/>
+    <activity-date type="end" iso-date="2012-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15150" percentage="10"/>
+    <sector vocabulary="DAC" ref="15140" percentage="20"/>
+    <sector vocabulary="DAC" ref="15120" percentage="70"/>
+    <finance-type>Multilateral organisation</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">121076</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">121076</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">2878925</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">2878924</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2010-04-01</period-start>
+      <period-end>2011-03-31</period-end>
+      <value value-date="2010-04-01">1515000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2011-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2011-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2011-04-01</period-start>
+      <period-end>2012-03-31</period-end>
+      <value value-date="2011-04-01">1515000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2012-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2012-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114488-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114488-101</other-identifier>
+    <related-activity ref="114488">COMPREHENSIVE AGRICULTURE &amp; RURAL DEVELOPMENT - FACILITY (CARD)</related-activity>
+    <title>COMPREHENSIVE AGRICULTURE &amp; RURAL DEVELOPMENT FACILITY (CARD): SERVICES</title>
+    <description>stronger incentives which encourage engagement in the local economy and which sustain the move away from opium production and implemented in provinces where poppy production has fallen</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-05-01"/>
+    <activity-date type="end" iso-date="2013-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="31120" percentage="40"/>
+    <sector vocabulary="DAC" ref="43050" percentage="30"/>
+    <sector vocabulary="DAC" ref="43040" percentage="30"/>
+    <finance-type>Procurement of services</finance-type>
+    <related-initiative ref="114488-102" type="Component"/>
+    <related-initiative ref="114488-103" type="Component"/>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114488-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114488-102</other-identifier>
+    <related-activity ref="114488">COMPREHENSIVE AGRICULTURE &amp; RURAL DEVELOPMENT - FACILITY (CARD)</related-activity>
+    <title>COMPREHENSIVE AGRICULTURE &amp; RURAL DEVELOPMENT FACILITY (CARD): FINANCIAL AID</title>
+    <description>stronger incentives which encourage engagement in the local economy and which sustain the move away from opium production and implemented in provinces where poppy production has fallen</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-05-01"/>
+    <activity-date type="end" iso-date="2013-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="43040" percentage="30"/>
+    <sector vocabulary="DAC" ref="43050" percentage="30"/>
+    <sector vocabulary="DAC" ref="31120" percentage="40"/>
+    <finance-type>Other financial aid to government</finance-type>
+    <related-initiative ref="114488-103" type="Component"/>
+    <related-initiative ref="114488-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">1000000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2010-04-01</period-start>
+      <period-end>2011-03-31</period-end>
+      <value value-date="2010-04-01">8000000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2011-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2011-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2011-04-01</period-start>
+      <period-end>2012-03-31</period-end>
+      <value value-date="2011-04-01">8500000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2012-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2012-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2012-04-01</period-start>
+      <period-end>2013-03-31</period-end>
+      <value value-date="2012-04-01">8200000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2013-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2013-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114488-103</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114488-103</other-identifier>
+    <related-activity ref="114488">COMPREHENSIVE AGRICULTURE &amp; RURAL DEVELOPMENT - FACILITY (CARD)</related-activity>
+    <title>COMPREHENSIVE AGRICULTURE &amp; RURAL DEVELOPMENT FACILITY: PROCUREMENT</title>
+    <description>stronger incentives which encourage engagement in the local economy and which sustain the move away from opium production and implemented in provinces where poppy production has fallen</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-05-01"/>
+    <activity-date type="end" iso-date="2013-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="31120" percentage="40"/>
+    <sector vocabulary="DAC" ref="43050" percentage="30"/>
+    <sector vocabulary="DAC" ref="43040" percentage="30"/>
+    <finance-type>Procurement of goods</finance-type>
+    <related-initiative ref="114488-101" type="Component"/>
+    <related-initiative ref="114488-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">940860</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114492-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114492-101</other-identifier>
+    <related-activity ref="114492">FRAGILE STATES OECD CONSULTATION</related-activity>
+    <title>FRAGILE STATES OECD CONSULTATION</title>
+    <description>to fund Altai technical assistance to support GoA in their engagement with the OECD process</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-04-01"/>
+    <activity-date type="end" iso-date="2009-11-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15140" percentage="100"/>
+    <finance-type>Procurement of services</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">61100</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">55999</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114502-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114502-101</other-identifier>
+    <related-activity ref="114502">TECHNICAL SUPPORT TO HELMAND GOVERNOR ON PSD</related-activity>
+    <title>PROCOFSERVICES and P0049 for Technical Support to Helmand Governor on PSD</title>
+    <description>provide support to the governor of helmand and tot he civil-military mission in Helmand (CMMH) by engaging on their behalf with other donors and key line ministries to aid ANDS implementation in the area of economic development</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-11-01"/>
+    <activity-date type="end" iso-date="2009-10-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="24040" percentage="20"/>
+    <sector vocabulary="DAC" ref="43040" percentage="19"/>
+    <sector vocabulary="DAC" ref="31120" percentage="20"/>
+    <sector vocabulary="DAC" ref="25010" percentage="20"/>
+    <sector vocabulary="DAC" ref="32130" percentage="21"/>
+    <finance-type>Procurement of services</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">-35084</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">-35084</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">535084</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">392040</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114503-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114503-101</other-identifier>
+    <related-activity ref="114503">HELMAND DONOR COORDINATION AND AID EFFECTIVENESS</related-activity>
+    <title>PROCOFSERVICES and P0049 for Helmand Donor Coordination and Aid effectiveness</title>
+    <description>technical support to the governor of Helamnd on ANDS Implementation, donor coordination and Aid effectiveness</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-11-01"/>
+    <activity-date type="end" iso-date="2009-10-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="23010" percentage="10"/>
+    <sector vocabulary="DAC" ref="15140" percentage="20"/>
+    <sector vocabulary="DAC" ref="32130" percentage="19"/>
+    <sector vocabulary="DAC" ref="21010" percentage="10"/>
+    <sector vocabulary="DAC" ref="43030" percentage="10"/>
+    <sector vocabulary="DAC" ref="31120" percentage="10"/>
+    <sector vocabulary="DAC" ref="43040" percentage="21"/>
+    <finance-type>Procurement of services</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">500000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">425353</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114504-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114504-101</other-identifier>
+    <related-activity ref="114504">HELMAND INFRASTRUCTURE ADVISOR</related-activity>
+    <title>PROCOFSERVICES and P0049 for Helmand Infrastructure Advisor</title>
+    <description>to provide technical support on infrastrcture for stabilisation and development in Helmand</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2008-12-01"/>
+    <activity-date type="end" iso-date="2009-12-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="23010" percentage="15"/>
+    <sector vocabulary="DAC" ref="23020" percentage="15"/>
+    <sector vocabulary="DAC" ref="23030" percentage="15"/>
+    <sector vocabulary="DAC" ref="21020" percentage="30"/>
+    <sector vocabulary="DAC" ref="43040" percentage="5"/>
+    <sector vocabulary="DAC" ref="32310" percentage="20"/>
+    <finance-type>Procurement of services</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2008-04-01</period-start>
+      <period-end>2009-03-31</period-end>
+      <value value-date="2008-04-01">35783</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2009-03-31">35783</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2009-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">241069</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">216338</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114516-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114516-101</other-identifier>
+    <related-activity ref="114516">POLITICAL ECONOMY ANALYSIS</related-activity>
+    <title>Political Economy Analysis</title>
+    <description>to provide DFID afghanistan with an improved understanding of the incentives, agendas, interests, networks and players which drive decision making in the key economic intsititutions of afghanistan</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-04-01"/>
+    <activity-date type="end" iso-date="2009-12-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="43082" percentage="100"/>
+    <finance-type>Procurement of services</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">125000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">84049</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=114521-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">114521-101</other-identifier>
+    <related-activity ref="114521">LIVELIHOODS ADVISOR</related-activity>
+    <title>LIVELIHOODS ADVISOR for Design and Study</title>
+    <description>Assistance to the Government of Afghanistans Comprehensive and Rural Agricultural facility and the Helmand Agriculture and Rural Development Programme and development of an Agricultural Umbrella programme</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-06-01"/>
+    <activity-date type="end" iso-date="2009-08-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="43040" percentage="100"/>
+    <finance-type>Procurement of services</finance-type>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=200970-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">200970-101</other-identifier>
+    <related-activity ref="200970">HELMAND INFRASTRUCTURE: BOST AIRFIELD &amp; AGRICULTURAL CENTRE</related-activity>
+    <title>HELMAND: BOST AIRFIELD AND AGRICULTURAL CENTRE: IMPLEMENTATION</title>
+    <description>Improved access for Helmandi entrepreneurs to agricultural processing and export opportunities.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-08-01"/>
+    <activity-date type="end" iso-date="2011-03-01"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="21010" percentage="55"/>
+    <sector vocabulary="DAC" ref="31120" percentage="45"/>
+    <finance-type>Procurement of services</finance-type>
+    <related-initiative ref="200970-102" type="Component"/>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=200970-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">200970-102</other-identifier>
+    <related-activity ref="200970">HELMAND INFRASTRUCTURE: BOST AIRFIELD &amp; AGRICULTURAL CENTRE</related-activity>
+    <title>HELMAND: BOST AIRFIELD AND AGRICULTURAL CENTRE: PROGRAMME MANAGER</title>
+    <description>Improved access for Helmandi entrepreneurs to agricultural processing and export opportunities.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-09-16"/>
+    <activity-date type="end" iso-date="2010-03-15"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="21010" percentage="51"/>
+    <sector vocabulary="DAC" ref="32130" percentage="49"/>
+    <finance-type>Procurement of services</finance-type>
+    <related-initiative ref="200970-101" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">118000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">80380</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=201004-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">201004-101</other-identifier>
+    <related-activity ref="201004">AFGHANISTAN SUB-NATIONAL GOVERNANCE PROGRAMME</related-activity>
+    <title>AFGHANISTAN SUB-NATIONAL GOVERNANCE PROGRAMME</title>
+    <description>Strengthen the capacity and accountability of provincial and district institutions</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-12-14"/>
+    <activity-date type="end" iso-date="2014-03-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15140" percentage="100"/>
+    <finance-type>Multilateral organisation</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">6000000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">6000000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2010-04-01</period-start>
+      <period-end>2011-03-31</period-end>
+      <value value-date="2010-04-01">4000000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2011-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2011-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2011-04-01</period-start>
+      <period-end>2012-03-31</period-end>
+      <value value-date="2011-04-01">6000000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2012-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2012-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2012-04-01</period-start>
+      <period-end>2013-03-31</period-end>
+      <value value-date="2012-04-01">4500000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2013-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2013-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2013-04-01</period-start>
+      <period-end>2014-03-31</period-end>
+      <value value-date="2013-04-01">3100000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2014-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2014-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=201012-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">201012-101</other-identifier>
+    <related-activity ref="201012">HELMAND ALTERNATIVE LIVELIHOODS PROGRAMME (HALP)</related-activity>
+    <title>HELMAND ALTERNATIVE LIVELIHOODS PROGRAMME (HALP): PROCUREMENT AGENT</title>
+    <description>Helmandi farmers within the Food Zone increase wheat production and are supported by government institutions more able to implement rural livelihoods and counter-narcotics programmes.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-08-01"/>
+    <activity-date type="end" iso-date="2010-10-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="31120" percentage="70"/>
+    <sector vocabulary="DAC" ref="31191" percentage="30"/>
+    <finance-type>Procurement of services</finance-type>
+    <related-initiative ref="201012-102" type="Component"/>
+    <related-initiative ref="201012-103" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">4225047</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">3700048</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=201012-102</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">201012-102</other-identifier>
+    <related-activity ref="201012">HELMAND ALTERNATIVE LIVELIHOODS PROGRAMME (HALP)</related-activity>
+    <title>HELMAND ALTERNATIVE LIVELIHOODS PROGRAMME (HALP): PROCUREMENT ADVISER</title>
+    <description>Helmandi farmers within the Food Zone increase wheat production and are supported by government institutions more able to implement rural livelihoods and counter-narcotics programmes.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-08-01"/>
+    <activity-date type="end" iso-date="2010-10-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="31110" percentage="70"/>
+    <sector vocabulary="DAC" ref="31191" percentage="30"/>
+    <finance-type>Procurement of services</finance-type>
+    <related-initiative ref="201012-103" type="Component"/>
+    <related-initiative ref="201012-101" type="Component"/>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=201012-103</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">201012-103</other-identifier>
+    <related-activity ref="201012">HELMAND ALTERNATIVE LIVELIHOODS PROGRAMME (HALP)</related-activity>
+    <title>HELMAND ALTERNATIVE LIVELIHOODS PROGRAMME (HALP): MANAGEMENT CONSULTANT</title>
+    <description>Helmandi farmers within the Food Zone increase wheat production and are supported by government institutions more able to implement rural livelihoods and counter-narcotics programmes.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-08-01"/>
+    <activity-date type="end" iso-date="2010-10-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="31191" percentage="30"/>
+    <sector vocabulary="DAC" ref="31120" percentage="70"/>
+    <finance-type>Procurement of services</finance-type>
+    <related-initiative ref="201012-101" type="Component"/>
+    <related-initiative ref="201012-102" type="Component"/>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">676053</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">109399</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=201030-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">201030-101</other-identifier>
+    <related-activity ref="201030">TRADITIONAL JUSTICE ADVISER</related-activity>
+    <title>MINISTRY OF JUSTICE TRADITIONAL JUSTICE ADVISER</title>
+    <description>To support the Ministry of Justice in their efforts to lead development of a policy on linkages between the state and informal justice mechanisms</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-09-01"/>
+    <activity-date type="end" iso-date="2011-03-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15130" percentage="100"/>
+    <finance-type>Procurement of services</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">126858</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">95498</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2010-04-01</period-start>
+      <period-end>2011-03-31</period-end>
+      <value value-date="2010-04-01">248142</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2011-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2011-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=201053-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">201053-101</other-identifier>
+    <related-activity ref="201053">STABILISATION PLANNERS FOR ISAF REGIONAL COMMAND SOUTH (KANDAHAR)</related-activity>
+    <title>STABILISATION PLANNERS FEES AND EXPENSES</title>
+    <description>Planning and enabling the delivery of infrastructure priorities accross the region.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-11-01"/>
+    <activity-date type="end" iso-date="2010-05-12"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15220" percentage="100"/>
+    <finance-type>Procurement of services</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">200000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">54662</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=201111-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">201111-101</other-identifier>
+    <related-activity ref="201111">STRENGTHENING THE STATISTICAL CAPACITY OF THE GOVERNMENT OF AFGHANISTAN</related-activity>
+    <title>STRENGTHENING THE GOVERNMENT OF AFGHANISTAN'S STATISTICAL CAPACITY</title>
+    <description>1. To support capacity building of Government of Afghanistan in the area of Official Statistics and Results-Based Management</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-10-04"/>
+    <activity-date type="end" iso-date="2010-10-03"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="16062" percentage="100"/>
+    <finance-type>Procurement of services</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">122000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">93324</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2010-04-01</period-start>
+      <period-end>2011-03-31</period-end>
+      <value value-date="2010-04-01">125000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2011-03-31">0</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2011-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=201186-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">201186-101</other-identifier>
+    <related-activity ref="201186">TECHNICAL ASSISTANCE FOR ANDS IMPLEMENTATION</related-activity>
+    <title>TECHNICAL ASSISTANCE FOR ANDS IMPLEMENTATION</title>
+    <description>More effective UNAMA and Afghan Government, better able to co-ordinate and manage Afghanistan National Development Strategy (ANDS) implementation</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-06-21"/>
+    <activity-date type="end" iso-date="2010-03-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="15140" percentage="100"/>
+    <finance-type>Procurement of services</finance-type>
+  </iati-activity>
+  <iati-activity default-currency="GBP" xml:lang="en">
+    <activity-website>http://projects.dfid.gov.uk/ProjectDetails.asp?projcode=201345-101</activity-website>
+    <reporting-org>Department for International Development</reporting-org>
+    <participating-org role="donor" type="bilateral">Department for International Development</participating-org>
+    <other-identifier owner-name="Department for International Development">201345-101</other-identifier>
+    <related-activity ref="201345">DFID CONTRIBUTION TO THE CROSS-WHITEHALL AFGHANISTAN COMMUNICATIONS TEAM (ACT) IN 2009/10</related-activity>
+    <title>DFID CONTRIBUTION TO THE CROSS-WHITEHALL AFGHANISTAN COMMUNICATIONS TEAM (ACT) IN 2009/10.</title>
+    <description>To assist the HMG mission in Afghanistan by creating support from influential and credible groups which influence UK public opinion.</description>
+    <recipient-country code="AF"/>
+    <activity-date type="start" iso-date="2009-04-01"/>
+    <activity-date type="end" iso-date="2010-03-31"/>
+    <activity-status ref="2">Implementation</activity-status>
+    <sector vocabulary="DAC" ref="99820" percentage="100"/>
+    <finance-type>Other bilateral donor</finance-type>
+    <budget-planned type="commitment" period="annual">
+      <period-start>2009-04-01</period-start>
+      <period-end>2010-03-31</period-end>
+      <value value-date="2009-04-01">40000</value>
+    </budget-planned>
+    <transaction flow="outgoing" type="disbursement">
+      <value value-date="2010-03-31">40000</value>
+      <provider-org>Department for International Development</provider-org>
+      <milestone-date type="disbursement">2010-03-31</milestone-date>
+    </transaction>
+  </iati-activity>
+</iati-activities>
